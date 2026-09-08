@@ -1,183 +1,204 @@
 # report.json
 
-> MiniGram MD Intelligence V6
+## 🧠 MiniGram Project Brain
 
-## 1. File Identity
+### File Identity
 
-| Property | Value |
-|---|---|
-| Source | `report.json` |
-| Extension | `.json` |
-| Bytes | 14290 |
-| Lines | 695 |
-| SHA-256 | `ef1bcaae43946dac834ce5bd32370141bb690512c79452e4c5aaffc14d57e1d0` |
-| Dependency Depth | 3 |
-
-## 2. Project Understanding
-
-Project understanding generated from the local intelligence engine.
-
-## 3. Architecture Context
-
-Architecture derived from the complete local relation graph.
-
-## 4. File Role
-
-This file belongs to:
-
-`report.json`
-
-The local intelligence engine detected
-40 direct dependencies
-and 0 consumers.
-
-## 5. Dependencies
-
-- `fontawesome/metadata/icon-families.json`
-- `fontawesome/metadata/icons.json`
-- `fontawesome/js/all.js`
-- `fontawesome/js/all.min.js`
-- `style.css`
-- `Games/deno/deno.html`
-- `Games/deno/deno.js`
-- `Games/deno/deno.css`
-- `reels/physics.js`
-- `profile/profile.css`
-- `main_js/minigramPost.js`
-- `reels.bundle.js`
-- `reels/reels.bundle.js`
-- `package.json`
-- `reels/package.json`
-- `main_js/bundles/package.json`
-- `package-lock.json`
-- `main_js/bundles/package-lock.json`
-- `Games/void/void_js/core.js`
-- `main_js/core.js`
-- `Games/void/void_js/ui.js`
-- `main_js/ui.js`
-- `Games/void/void_js/boot.js`
-- `main_js/boot.js`
-- `home/home.js`
-- `main_js/pageloader/home.js`
-- `global_css/base.css`
-- `profile/profile_css/base.css`
-- `global_css/layout.css`
-- `r-css/layout.css`
-- `global_css/animations.css`
-- `profile/profile_css/animations.css`
-- `auth.js`
-- `doctor.html`
-- `index.html`
-- `loader.html`
-- `posts.json`
-- `supabase.js`
-- `test.html`
-- `viewer.css`
-
-## 6. Used By
-
-- None
-
-## 7. Exact Relation Flow
-
-- `report.json` → `fontawesome/metadata/icon-families.json` **[string-path]**
-- `report.json` → `fontawesome/metadata/icons.json` **[string-path]**
-- `report.json` → `fontawesome/js/all.js` **[string-path]**
-- `report.json` → `fontawesome/js/all.min.js` **[string-path]**
-- `report.json` → `fontawesome/metadata/icon-families.json` **[string-path]**
-- `report.json` → `fontawesome/metadata/icons.json` **[string-path]**
-- `report.json` → `style.css` **[string-path]**
-- `report.json` → `Games/deno/deno.html` **[string-path]**
-- `report.json` → `Games/deno/deno.js` **[string-path]**
-- `report.json` → `Games/deno/deno.css` **[string-path]**
-- `report.json` → `reels/physics.js` **[string-path]**
-- `report.json` → `profile/profile.css` **[string-path]**
-- `report.json` → `main_js/minigramPost.js` **[string-path]**
-- `report.json` → `reels.bundle.js` **[string-path]**
-- `report.json` → `reels.bundle.js` **[string-path]**
-- `report.json` → `reels/reels.bundle.js` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `reels/package.json` **[string-path]**
-- `report.json` → `main_js/bundles/package.json` **[string-path]**
-- `report.json` → `package-lock.json` **[string-path]**
-- `report.json` → `package-lock.json` **[string-path]**
-- `report.json` → `main_js/bundles/package-lock.json` **[string-path]**
-- `report.json` → `Games/void/void_js/core.js` **[string-path]**
-- `report.json` → `main_js/core.js` **[string-path]**
-- `report.json` → `Games/void/void_js/ui.js` **[string-path]**
-- `report.json` → `main_js/ui.js` **[string-path]**
-- `report.json` → `Games/void/void_js/boot.js` **[string-path]**
-- `report.json` → `main_js/boot.js` **[string-path]**
-- `report.json` → `home/home.js` **[string-path]**
-- `report.json` → `main_js/pageloader/home.js` **[string-path]**
-- `report.json` → `global_css/base.css` **[string-path]**
-- `report.json` → `profile/profile_css/base.css` **[string-path]**
-- `report.json` → `global_css/layout.css` **[string-path]**
-- `report.json` → `r-css/layout.css` **[string-path]**
-- `report.json` → `global_css/animations.css` **[string-path]**
-- `report.json` → `profile/profile_css/animations.css` **[string-path]**
-- `report.json` → `auth.js` **[string-path]**
-- `report.json` → `doctor.html` **[string-path]**
-- `report.json` → `index.html` **[string-path]**
-- `report.json` → `loader.html` **[string-path]**
-- `report.json` → `package-lock.json` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `package-lock.json` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `posts.json` **[string-path]**
-- `report.json` → `package.json` **[string-path]**
-- `report.json` → `reels.bundle.js` **[string-path]**
-- `report.json` → `reels.bundle.js` **[string-path]**
-- `report.json` → `style.css` **[string-path]**
-- `report.json` → `supabase.js` **[string-path]**
-- `report.json` → `test.html` **[string-path]**
-- `report.json` → `viewer.css` **[string-path]**
-
-## 8. Local Symbols
-
-- None
-
-## 9. Exports
-
-- None
-
-## 10. Unresolved References
-
-- None
-
-## 11. Error / Problem Detection
-
-- No detected errors
-
-## 12. Project Systems
-
-- None
-
-## 13. Project Risks
-
-- None
-
-## 14. Recommendations
-
-- None
-
-## 15. Execution / Architecture Flow
-
-See the generated relation graph and file-level flows.
+- Path: `report.json`
+- Extension: `.json`
+- Size: 14290 bytes
+- Lines: 695
+- SHA-256: `ef1bcaae43946dac834ce5bd32370141bb690512c79452e4c5aaffc14d57e1d0`
+- Dependency depth: 0
 
 ---
 
-# ORIGINAL SOURCE CODE
+## Project Understanding
 
-The following is the **exact local source content**
-read from:
+This document is generated by the MiniGram MD Intelligence V7
+project brain.
 
-`/storage/emulated/0/MINIGRAM1/report.json`
+The source file is preserved exactly at the bottom of this
+document.
 
-It is NOT AI generated or rewritten.
+---
+
+## Intelligence Signals
+
+- None
+
+---
+
+## Dependencies
+
+- None
+
+---
+
+## Used By
+
+- None
+
+---
+
+## Relations
+
+- None
+
+---
+
+## Functions
+
+- None
+
+---
+
+## Symbols
+
+- None
+
+---
+
+## Exports
+
+- None
+
+---
+
+## Function Call Hints
+
+- None
+
+---
+
+## Events
+
+- None
+
+---
+
+## DOM
+
+### IDs
+
+- None
+
+### Classes
+
+- None
+
+### Elements
+
+- None
+
+---
+
+## JS Selectors
+
+- None
+
+---
+
+## CSS Selectors
+
+### Classes
+
+- None
+
+### IDs
+
+- None
+
+### Selectors
+
+- None
+
+---
+
+## API / Data
+
+### Calls
+
+- None
+
+### Tables
+
+- None
+
+### Endpoints
+
+- None
+
+---
+
+## Routes
+
+- None
+
+---
+
+## Unresolved References
+
+- None
+
+---
+
+## Detected Problems
+
+- None
+
+---
+
+## Project Architecture
+
+- (root): {"files":16,"dependencies":16,"errors":1}
+- Games: {"files":37,"dependencies":16,"errors":0}
+- chat: {"files":9,"dependencies":4,"errors":0}
+- comments: {"files":2,"dependencies":0,"errors":0}
+- critical_css: {"files":1,"dependencies":0,"errors":0}
+- fontawesome: {"files":60,"dependencies":0,"errors":78}
+- future_system_structure: {"files":1,"dependencies":0,"errors":0}
+- global: {"files":1,"dependencies":0,"errors":0}
+- global_css: {"files":9,"dependencies":0,"errors":0}
+- home: {"files":3,"dependencies":0,"errors":0}
+- login: {"files":3,"dependencies":3,"errors":0}
+- main_js: {"files":79,"dependencies":0,"errors":11}
+- minigram-md: {"files":1,"dependencies":0,"errors":0}
+- notifications: {"files":3,"dependencies":0,"errors":0}
+- page_config: {"files":17,"dependencies":0,"errors":0}
+- profile: {"files":11,"dependencies":0,"errors":0}
+- r-css: {"files":9,"dependencies":0,"errors":0}
+- reel: {"files":3,"dependencies":0,"errors":9}
+- reels: {"files":17,"dependencies":10,"errors":0}
+- search: {"files":3,"dependencies":1,"errors":0}
+- settings: {"files":18,"dependencies":5,"errors":0}
+- share: {"files":2,"dependencies":0,"errors":0}
+- signup: {"files":3,"dependencies":3,"errors":0}
+- skeleton: {"files":1,"dependencies":0,"errors":0}
+- stories: {"files":6,"dependencies":0,"errors":0}
+- system.md: {"files":3,"dependencies":0,"errors":0}
+
+---
+
+## Project Flow
+
+- None
+
+---
+
+## Project Risks
+
+- None
+
+---
+
+## Recommendations
+
+- None
+
+---
+
+# ORIGINAL SOURCE
 
 ```json
 {
@@ -876,7 +897,3 @@ It is NOT AI generated or rewritten.
   "score": 45
 }
 ```
-
----
-
-Generated by MiniGram MD Intelligence V6.
