@@ -1,0 +1,286 @@
+# main_js/pageloader/cpu.js
+
+> MiniGram MD Intelligence V6
+
+## 1. File Identity
+
+| Property | Value |
+|---|---|
+| Source | `main_js/pageloader/cpu.js` |
+| Extension | `.js` |
+| Bytes | 3561 |
+| Lines | 181 |
+| SHA-256 | `a00c7d291b9cf3560f17215a8990ef5ec8801f1a46c7017f16658a6ff69d84e3` |
+| Dependency Depth | 0 |
+
+## 2. Project Understanding
+
+Project understanding generated from the local intelligence engine.
+
+## 3. Architecture Context
+
+Architecture derived from the complete local relation graph.
+
+## 4. File Role
+
+This file belongs to:
+
+`main_js`
+
+The local intelligence engine detected
+0 direct dependencies
+and 0 consumers.
+
+## 5. Dependencies
+
+- None
+
+## 6. Used By
+
+- None
+
+## 7. Exact Relation Flow
+
+- No local relation detected
+
+## 8. Local Symbols
+
+- `sample`
+- `box`
+- `load`
+- `longTaskTime`
+- `observer`
+- `entry`
+- `start`
+- `delay`
+- `timerLoad`
+- `taskLoad`
+- `target`
+- `value`
+
+## 9. Exports
+
+- None
+
+## 10. Unresolved References
+
+- None
+
+## 11. Error / Problem Detection
+
+- No detected errors
+
+## 12. Project Systems
+
+- None
+
+## 13. Project Risks
+
+- None
+
+## 14. Recommendations
+
+- None
+
+## 15. Execution / Architecture Flow
+
+See the generated relation graph and file-level flows.
+
+---
+
+# ORIGINAL SOURCE CODE
+
+The following is the **exact local source content**
+read from:
+
+`/storage/emulated/0/MINIGRAM1/main_js/pageloader/cpu.js`
+
+It is NOT AI generated or rewritten.
+
+```javascript
+//////////////////////////////////////////////////
+// 🧠 LIGHTWEIGHT PERFORMANCE MONITOR
+// Main-thread load estimate — NOT real hardware CPU %
+//////////////////////////////////////////////////
+
+console.log("🧠 cpu.js loaded (lightweight)");
+
+(function () {
+
+  const box = document.createElement("div");
+
+  box.style.position = "fixed";
+  box.style.top = "55%";
+  box.style.right = "6px";
+
+  box.style.padding = "4px 6px";
+  box.style.fontSize = "10px";
+  box.style.fontWeight = "600";
+
+  box.style.background = "rgba(0,0,0,.5)";
+  box.style.borderRadius = "6px";
+
+  box.style.zIndex = "999999";
+  box.style.pointerEvents = "none";
+
+  document.body.appendChild(box);
+
+
+  //////////////////////////////////////////////////
+  // STATE
+  //////////////////////////////////////////////////
+
+  let load = 0;
+  let longTaskTime = 0;
+
+  let observer = null;
+
+
+  //////////////////////////////////////////////////
+  // LONG TASK MONITOR
+  //////////////////////////////////////////////////
+
+  if ("PerformanceObserver" in window) {
+
+    try {
+
+      observer = new PerformanceObserver(list => {
+
+        for (const entry of list.getEntries()) {
+
+          longTaskTime += entry.duration;
+
+        }
+
+      });
+
+      observer.observe({
+        type: "longtask",
+        buffered: false
+      });
+
+    } catch (e) {
+
+      // Long Task API unavailable
+      observer = null;
+
+    }
+
+  }
+
+
+  //////////////////////////////////////////////////
+  // MAIN THREAD SAMPLE
+  //////////////////////////////////////////////////
+
+  function sample() {
+
+    const start = performance.now();
+
+    setTimeout(() => {
+
+      const delay =
+        performance.now() - start;
+
+      /*
+       * Expected timer delay is roughly a few ms.
+       * Higher delay = busier main thread.
+       */
+
+      const timerLoad =
+        Math.max(
+          0,
+          Math.min(
+            100,
+            (delay - 4) * 5
+          )
+        );
+
+
+      //////////////////////////////////////////////////
+      // LONG TASK LOAD
+      //////////////////////////////////////////////////
+
+      const taskLoad =
+        Math.max(
+          0,
+          Math.min(
+            100,
+            longTaskTime / 5
+          )
+        );
+
+      longTaskTime = 0;
+
+
+      //////////////////////////////////////////////////
+      // COMBINE
+      //////////////////////////////////////////////////
+
+      const target =
+        Math.max(
+          timerLoad,
+          taskLoad
+        );
+
+
+      //////////////////////////////////////////////////
+      // SMOOTH
+      //////////////////////////////////////////////////
+
+      load =
+        load * 0.75 +
+        target * 0.25;
+
+
+      //////////////////////////////////////////////////
+      // UI
+      //////////////////////////////////////////////////
+
+      const value =
+        Math.round(load);
+
+
+      if (value < 30) {
+
+        box.style.color = "#0f0";
+
+      } else if (value < 60) {
+
+        box.style.color = "#ff0";
+
+      } else {
+
+        box.style.color = "#f00";
+
+      }
+
+
+      box.textContent =
+        `CPU: ${value}%`;
+
+
+      //////////////////////////////////////////////////
+      // NEXT SAMPLE
+      //////////////////////////////////////////////////
+
+      setTimeout(sample, 500);
+
+    }, 0);
+
+  }
+
+
+  //////////////////////////////////////////////////
+  // START
+  //////////////////////////////////////////////////
+
+  sample();
+
+
+})();
+```
+
+---
+
+Generated by MiniGram MD Intelligence V6.
