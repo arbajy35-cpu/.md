@@ -1,0 +1,373 @@
+# viewer.css
+
+> MiniGram MD Intelligence V6
+
+## 1. File Identity
+
+| Property | Value |
+|---|---|
+| Source | `viewer.css` |
+| Extension | `.css` |
+| Bytes | 3737 |
+| Lines | 279 |
+| SHA-256 | `dcb33c52c51b904c1b41297dbee567db60dd95607cc443d641d0ca210baf17fd` |
+| Dependency Depth | 0 |
+
+## 2. Project Understanding
+
+Project understanding generated from the local intelligence engine.
+
+## 3. Architecture Context
+
+Architecture derived from the complete local relation graph.
+
+## 4. File Role
+
+This file belongs to:
+
+`viewer.css`
+
+The local intelligence engine detected
+0 direct dependencies
+and 1 consumers.
+
+## 5. Dependencies
+
+- None
+
+## 6. Used By
+
+- `report.json`
+
+## 7. Exact Relation Flow
+
+- No local relation detected
+
+## 8. Local Symbols
+
+- None
+
+## 9. Exports
+
+- None
+
+## 10. Unresolved References
+
+- None
+
+## 11. Error / Problem Detection
+
+- No detected errors
+
+## 12. Project Systems
+
+- None
+
+## 13. Project Risks
+
+- None
+
+## 14. Recommendations
+
+- None
+
+## 15. Execution / Architecture Flow
+
+See the generated relation graph and file-level flows.
+
+---
+
+# ORIGINAL SOURCE CODE
+
+The following is the **exact local source content**
+read from:
+
+`/storage/emulated/0/MINIGRAM1/viewer.css`
+
+It is NOT AI generated or rewritten.
+
+```css
+/* =========================
+FULLSCREEN VIEWER MODAL
+========================= */
+
+#postModal {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  animation: fadeIn 0.25s ease;
+
+  will-change: opacity;
+}
+
+/* hidden state */
+
+#postModal.hidden {
+  display: none;
+}
+
+/* =========================
+BACKGROUND BLUR
+========================= */
+
+#postModal::before {
+
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  background: rgba(0,0,0,0.4);
+
+  z-index: 0;
+}
+
+/* =========================
+VIEWER CONTAINER
+========================= */
+
+.viewer {
+
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: black;
+
+  z-index: 1;
+
+  animation: zoomIn 0.25s ease;
+
+  will-change: transform,opacity;
+
+}
+
+/* =========================
+IMAGE FIT PERFECTLY
+========================= */
+
+.viewerImage {
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  background: black;
+
+  cursor: pointer;
+
+  touch-action: manipulation;
+
+}
+
+/* =========================
+TOP BAR (REAL APP STYLE)
+========================= */
+
+.viewerTop {
+
+  position: absolute;
+
+  top: env(safe-area-inset-top,0);
+  left: 0;
+  right: 0;
+
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 14px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.8),
+    transparent
+  );
+
+  z-index: 3;
+
+}
+
+/* =========================
+BACK BUTTON
+========================= */
+
+.viewerBack {
+
+  color: white;
+
+  font-size: 26px;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  padding: 6px;
+
+}
+
+.viewerBack:active{
+  transform: scale(.85);
+}
+
+/* =========================
+DOUBLE TAP LIKE HEART
+========================= */
+
+.likeHeart {
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%,-50%) scale(.5);
+
+  font-size: 90px;
+
+  color: white;
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  transition: all .3s ease;
+
+  z-index: 4;
+
+  will-change: transform,opacity;
+
+}
+
+.likeHeart.show {
+
+  opacity: 1;
+
+  transform: translate(-50%,-50%) scale(1);
+
+}
+
+/* =========================
+BODY NO SCROLL WHEN VIEWER OPEN
+========================= */
+
+body.modalOpen {
+
+  overflow: hidden;
+
+  touch-action: none;
+
+}
+
+/* =========================
+POST INFO OVERLAY
+========================= */
+
+.postInfo {
+
+  position: absolute;
+
+  bottom: calc(12px + env(safe-area-inset-bottom,0));
+  left: 12px;
+
+  color: white;
+
+  background: rgba(0,0,0,0.5);
+
+  padding: 8px 12px;
+
+  border-radius: 10px;
+
+  font-size: 13px;
+
+  pointer-events: none;
+
+  opacity: 0;
+
+  transition: opacity .2s ease;
+
+  z-index: 4;
+
+}
+
+.postInfo.show {
+  opacity: 1;
+}
+
+/* =========================
+ANIMATIONS
+========================= */
+
+@keyframes fadeIn {
+
+  from { opacity:0; }
+  to { opacity:1; }
+
+}
+
+@keyframes zoomIn {
+
+  from {
+    transform: scale(.95);
+    opacity:0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity:1;
+  }
+
+}
+
+/* =========================
+MOBILE RESPONSIVE
+========================= */
+
+@media(max-width:400px){
+
+  .viewerTop{
+    height:50px;
+  }
+
+  .likeHeart{
+    font-size:72px;
+  }
+
+}
+
+/* =========================
+PERFORMANCE OPTIMIZATION
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *{
+    animation:none !important;
+    transition:none !important;
+  }
+
+}
+```
+
+---
+
+Generated by MiniGram MD Intelligence V6.
