@@ -1,0 +1,231 @@
+# notifications/notification.js
+
+> MiniGram MD Intelligence V6
+
+## 1. File Identity
+
+| Property | Value |
+|---|---|
+| Source | `notifications/notification.js` |
+| Extension | `.js` |
+| Bytes | 3470 |
+| Lines | 129 |
+| SHA-256 | `4758a38b21e03853842b8e09ff9c2026c5a2cad6bcc7e5c363327a1be09eb591` |
+| Dependency Depth | 0 |
+
+## 2. Project Understanding
+
+Project understanding generated from the local intelligence engine.
+
+## 3. Architecture Context
+
+Architecture derived from the complete local relation graph.
+
+## 4. File Role
+
+This file belongs to:
+
+`notifications`
+
+The local intelligence engine detected
+0 direct dependencies
+and 0 consumers.
+
+## 5. Dependencies
+
+- None
+
+## 6. Used By
+
+- None
+
+## 7. Exact Relation Flow
+
+- No local relation detected
+
+## 8. Local Symbols
+
+- `createItem`
+- `close`
+- `container`
+- `data`
+- `div`
+- `fragment`
+- `btn`
+- `item`
+- `backBtn`
+
+## 9. Exports
+
+- None
+
+## 10. Unresolved References
+
+- None
+
+## 11. Error / Problem Detection
+
+- No detected errors
+
+## 12. Project Systems
+
+- None
+
+## 13. Project Risks
+
+- None
+
+## 14. Recommendations
+
+- None
+
+## 15. Execution / Architecture Flow
+
+See the generated relation graph and file-level flows.
+
+---
+
+# ORIGINAL SOURCE CODE
+
+The following is the **exact local source content**
+read from:
+
+`/storage/emulated/0/MINIGRAM1/notifications/notification.js`
+
+It is NOT AI generated or rewritten.
+
+```javascript
+window.initNotifications = function () {
+
+  const container = document.getElementById("notifications");
+
+  if (!container) {
+    console.warn(" Notifications container not found");
+    return;
+  }
+
+  /* ===== CLEAN INIT (SPA SAFE) ===== */
+  container.innerHTML = "";
+
+  /* ================= DATA ================= */
+
+  const data = [
+    { type: "request", user: "luudddiin", time: "5h", img: "https://i.pravatar.cc/150?img=1" },
+    { type: "request", user: "satvilkarpooja", time: "6h", img: "https://i.pravatar.cc/150?img=2" },
+    { type: "suggest", user: "_green_panther_mh07_", time: "3d", img: "https://i.pravatar.cc/150?img=3" },
+    { type: "suggest", user: "miss_ms_deaf03", time: "6d", img: "https://i.pravatar.cc/150?img=4" }
+  ];
+
+  /* ================= CREATE ITEM ================= */
+
+  function createItem(n) {
+    const div = document.createElement("div");
+    div.className = "item";
+
+    if (n.type === "request") {
+      div.innerHTML = `
+        <div class="left">
+          <img src="${n.img}" loading="lazy">
+          <div class="text-wrap">
+            <div class="text">
+              <b>${n.user}</b> requested to follow you
+            </div>
+            <div class="time">${n.time}</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn confirm">Confirm</button>
+          <button class="btn delete">Delete</button>
+        </div>
+      `;
+    } else {
+      div.innerHTML = `
+        <div class="left">
+          <img src="${n.img}" loading="lazy">
+          <div class="text-wrap">
+            <div class="text">
+              <b>${n.user}</b> is on MiniGram
+            </div>
+            <div class="time">${n.time}</div>
+          </div>
+        </div>
+
+        <button class="btn follow">Follow</button>
+      `;
+    }
+
+    return div;
+  }
+
+  /* ================= RENDER ================= */
+
+  const fragment = document.createDocumentFragment();
+
+  data.forEach(n => {
+    fragment.appendChild(createItem(n));
+  });
+
+  container.appendChild(fragment);
+
+  /* ================= EVENTS ================= */
+
+  if (!container.dataset.eventsAdded) {
+
+    container.addEventListener("click", (e) => {
+
+      const btn = e.target;
+
+      // FOLLOW / CONFIRM
+      if (
+        btn.classList.contains("confirm") ||
+        btn.classList.contains("follow")
+      ) {
+        btn.innerText = "Following";
+        btn.classList.add("following");
+      }
+
+      // DELETE
+      if (btn.classList.contains("delete")) {
+        const item = btn.closest(".item");
+
+        item.style.opacity = "0";
+        item.style.transform = "translateX(40px)";
+
+        setTimeout(() => {
+          if (item) item.remove();
+        }, 200);
+      }
+
+    });
+
+    container.dataset.eventsAdded = "true";
+  }
+
+  /* ================= BACK BUTTON ================= */
+
+  const backBtn = document.querySelector(".notificationsPage .backBtn");
+
+  if (backBtn && !backBtn.dataset.bound) {
+
+    backBtn.addEventListener("click", () => {
+
+      if (typeof loadPage === "function") {
+        loadPage("home"); //  FIXED
+      } else {
+        history.back(); // fallback
+      }
+
+    });
+
+    backBtn.dataset.bound = "true";
+  }
+
+}; //  MOST IMPORTANT (function close)
+window.addEventListener && window.addEventListener("error", e => console.log("💀 ERROR IN FILE:", e.filename, e.message));
+
+```
+
+---
+
+Generated by MiniGram MD Intelligence V6.
