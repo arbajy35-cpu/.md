@@ -1,58 +1,523 @@
 # fontawesome/js/all.js
 
-> MiniGram MD Intelligence V5
+> MiniGram MD Intelligence V6
 
-## File Information
+## 1. File Identity
 
 | Property | Value |
 |---|---|
 | Source | `fontawesome/js/all.js` |
 | Extension | `.js` |
-| Size | 1583964 bytes |
+| Bytes | 1583964 |
 | Lines | 6027 |
 | SHA-256 | `fe2f5ec4da5a976140659ce8b8a664f7c1429e095b9516ddde647d3277034c56` |
+| Dependency Depth | 0 |
 
-## Project Understanding
+## 2. Project Understanding
 
-AI analysis unavailable.
+Project understanding generated from the local intelligence engine.
 
-## Architecture Context
+## 3. Architecture Context
 
-Architecture generated from local file relations.
+Architecture derived from the complete local relation graph.
 
-## Dependencies
+## 4. File Role
 
-- None
+This file belongs to:
 
-## Used By
+`fontawesome`
 
-- None
+The local intelligence engine detected
+0 direct dependencies
+and 1 consumers.
 
-## Relation Flow
-
-```text
-fontawesome/js/all.js
-  ↓
-  └─ No local dependencies
-```
-
-## AI Project Patterns
+## 5. Dependencies
 
 - None
 
-## AI Warnings
+## 6. Used By
+
+- `report.json`
+
+## 7. Exact Relation Flow
+
+- No local relation detected
+
+## 8. Local Symbols
+
+- `ownKeys`
+- `_objectSpread2`
+- `_defineProperty`
+- `_toConsumableArray`
+- `_arrayWithoutHoles`
+- `_iterableToArray`
+- `_unsupportedIterableToArray`
+- `_arrayLikeToArray`
+- `_nonIterableSpread`
+- `familyProxy`
+- `get`
+- `bunker`
+- `normalizeIcons`
+- `defineIcons`
+- `_typeof`
+- `_wrapRegExp`
+- `BabelRegExp`
+- `buildGroups`
+- `_classCallCheck`
+- `_defineProperties`
+- `_createClass`
+- `_inherits`
+- `_setPrototypeOf`
+- `_slicedToArray`
+- `_arrayWithHoles`
+- `_iterableToArrayLimit`
+- `_nonIterableRest`
+- `noop`
+- `getAttrConfig`
+- `coerce`
+- `set`
+- `onChange`
+- `insertCss`
+- `nextUniqueId`
+- `toArray`
+- `classArray`
+- `htmlEscape`
+- `joinAttributes`
+- `joinStyles`
+- `transformIsMeaningful`
+- `transformForSvg`
+- `transformForCss`
+- `css`
+- `ensureCss`
+- `mixout`
+- `hooks`
+- `beforeDOMElementCreation`
+- `beforeI2svg`
+- `listener`
+- `domready`
+- `toHtml`
+- `iconFromMapping`
+- `known`
+- `bindInternal4`
+- `fastReduceObject`
+- `ucs2decode`
+- `toHex`
+- `codePointAt`
+- `isReserved`
+- `getIconName`
+- `build`
+- `lookup`
+- `byUnicode`
+- `byLigature`
+- `byAlias`
+- `byOldName`
+- `byOldUnicode`
+- `getDefaultUsablePrefix`
+- `emptyCanonicalIcon`
+- `getCanonicalPrefix`
+- `getCanonicalIcon`
+- `Library`
+- `add`
+- `reset`
+- `_pullDefinitions`
+- `registerPlugins`
+- `chainHooks`
+- `callHooks`
+- `callProvided`
+- `findIconDefinition`
+- `noAuto`
+- `i2svg`
+- `watch`
+- `icon`
+- `autoReplace`
+- `bootstrap`
+- `addPack`
+- `addPacks`
+- `addShims`
+- `domVariants`
+- `asIcon`
+- `asSymbol`
+- `makeInlineSvgAbstract`
+- `makeLayersTextAbstract`
+- `makeLayersCounterAbstract`
+- `asFoundIcon`
+- `maybeNotifyMissing`
+- `findIcon`
+- `begin`
+- `end`
+- `isWatched`
+- `hasPrefixAndIcon`
+- `hasBeenReplaced`
+- `getMutator`
+- `createElementNS`
+- `createElement`
+- `convertSVG`
+- `nodeAsComment`
+- `replace`
+- `nest`
+- `performOperationSync`
+- `perform`
+- `disableObservation`
+- `enableObservation`
+- `observe`
+- `disconnect`
+- `styleParser`
+- `classParser`
+- `attributesParser`
+- `blankMeta`
+- `parseMeta`
+- `generateMutation`
+- `onTree`
+- `hclAdd`
+- `hclRemove`
+- `onNode`
+- `resolveIcons`
+- `render`
+- `mutationObserverCallbacks`
+- `provides`
+- `layer`
+- `counter`
+- `text`
+- `hexValueFromContent`
+- `replaceForPosition`
+- `processable`
+- `searchPseudoElements`
+- `unwatch`
+- `parseTransformString`
+- `transform`
+- `parseNodeAttributes`
+- `fillBlack`
+- `deGroup`
+- `as`
+- `name`
+- `_WINDOW`
+- `_DOCUMENT`
+- `_ref`
+- `WINDOW`
+- `DOCUMENT`
+- `IS_BROWSER`
+- `IS_DOM`
+- `IS_IE`
+- `keys`
+- `symbols`
+- `i`
+- `source`
+- `n`
+- `_familyProxy`
+- `NAMESPACE_IDENTIFIER`
+- `PRODUCTION`
+- `FAMILY_CLASSIC`
+- `FAMILY_SHARP`
+- `FAMILIES`
+- `PREFIX_TO_STYLE`
+- `STYLE_TO_PREFIX`
+- `PREFIX_TO_LONG_STYLE`
+- `LONG_STYLE_TO_PREFIX`
+- `FONT_WEIGHT_TO_PREFIX`
+- `oneToTen`
+- `oneToTwenty`
+- `DUOTONE_CLASSES`
+- `prefixes`
+- `RESERVED_CLASSES`
+- `_len`
+- `w`
+- `namespace`
+- `expanded`
+- `params`
+- `_params$skipHooks`
+- `normalized`
+- `icons`
+- `_super`
+- `_this`
+- `g`
+- `result`
+- `groups`
+- `args`
+- `descriptor`
+- `_i`
+- `_arr`
+- `_n`
+- `_d`
+- `_s`
+- `_MUTATION_OBSERVER`
+- `_PERFORMANCE`
+- `MUTATION_OBSERVER`
+- `PERFORMANCE`
+- `UNITS_IN_GRID`
+- `DEFAULT_CSS_PREFIX`
+- `DEFAULT_REPLACEMENT_CLASS`
+- `DATA_FA_I2SVG`
+- `DATA_FA_PSEUDO_ELEMENT`
+- `DATA_FA_PSEUDO_ELEMENT_PENDING`
+- `DATA_PREFIX`
+- `DATA_ICON`
+- `HTML_CLASS_I2SVG_BASE_CLASS`
+- `MUTATION_APPROACH_ASYNC`
+- `TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS`
+- `ICON_SELECTION_SYNTAX_PATTERN`
+- `LAYERS_TEXT_CLASSNAME`
+- `FONT_FAMILY_PATTERN`
+- `ATTRIBUTES_WATCHED_FOR_MUTATION`
+- `initial`
+- `element`
+- `attrs`
+- `_ref2`
+- `val`
+- `_default`
+- `_config`
+- `config`
+- `_onChangeCb`
+- `d`
+- `meaninglessTransform`
+- `style`
+- `headChildren`
+- `beforeChild`
+- `child`
+- `tagName`
+- `idPool`
+- `size`
+- `id`
+- `array`
+- `outer`
+- `innerTranslate`
+- `innerScale`
+- `innerRotate`
+- `inner`
+- `path`
+- `baseStyles`
+- `dcp`
+- `drc`
+- `fp`
+- `rc`
+- `s`
+- `dPatt`
+- `customPropPatt`
+- `rPatt`
+- `_cssInserted`
+- `InjectCSS`
+- `functions`
+- `loaded`
+- `tag`
+- `reduce`
+- `output`
+- `length`
+- `value`
+- `extra`
+- `decoded`
+- `first`
+- `second`
+- `duotonePathRe`
+- `_LONG_STYLE`
+- `styles`
+- `LONG_STYLE`
+- `_defaultUsablePrefix`
+- `_byUnicode`
+- `_byLigature`
+- `_byOldName`
+- `_byOldUnicode`
+- `_byAlias`
+- `PREFIXES`
+- `parts`
+- `prefix`
+- `iconName`
+- `aliases`
+- `hasRegular`
+- `shimLookups`
+- `maybeNameMaybeUnicode`
+- `oldUnicode`
+- `newUnicode`
+- `_params$family`
+- `defined`
+- `PREFIXES_FOR_FAMILY`
+- `_famProps`
+- `_params$skipLookups`
+- `famProps`
+- `givenPrefix`
+- `family`
+- `canonical`
+- `shim`
+- `aliasIconName`
+- `additions`
+- `longPrefix`
+- `_normalized$key`
+- `_plugins`
+- `_hooks`
+- `providers`
+- `defaultProviderKeys`
+- `obj`
+- `hookFns`
+- `_len2`
+- `hook`
+- `library`
+- `dom`
+- `autoReplaceSvgRoot`
+- `parse`
+- `canonicalIcon`
+- `_prefix`
+- `api`
+- `_params$autoReplaceSv`
+- `_namespace$shims`
+- `container`
+- `children`
+- `width`
+- `offset`
+- `_params$icons`
+- `isUploadedIcon`
+- `attrClass`
+- `content`
+- `uploadedIconWidthStyle`
+- `attributes`
+- `styleString`
+- `styles$1`
+- `height`
+- `_icon$slice`
+- `missingIconResolutionMixin`
+- `noop$1`
+- `p`
+- `preamble`
+- `perf`
+- `noop$2`
+- `mutator`
+- `_params$ceFn`
+- `comment`
+- `mutators`
+- `node`
+- `_abstract2`
+- `forSvg`
+- `splitClasses`
+- `newInnerHTML`
+- `callbackFunction`
+- `frame`
+- `mark`
+- `disabled`
+- `mo`
+- `_options$treeCallback`
+- `defaultPrefix`
+- `_getCanonicalIcon`
+- `prop`
+- `existingPrefix`
+- `existingIconName`
+- `innerText`
+- `extraAttributes`
+- `title`
+- `titleId`
+- `parser`
+- `_classParser`
+- `pluginMeta`
+- `extraStyles`
+- `styles$2`
+- `nodeMeta`
+- `knownPrefixes`
+- `callback`
+- `htmlClassList`
+- `prefixesDomQuery`
+- `candidates`
+- `mutations`
+- `mutation`
+- `iconDefinition`
+- `mask`
+- `_params$transform`
+- `ReplaceElements`
+- `_params$node`
+- `nextChild`
+- `Layers`
+- `_params$classes`
+- `LayersCounter`
+- `_params$title`
+- `LayersText`
+- `computedFontSize`
+- `boundingClientRect`
+- `CLEAN_CONTENT_PATTERN`
+- `SECONDARY_UNICODE_RANGE`
+- `cleaned`
+- `codePoint`
+- `isPrependTen`
+- `isDoubled`
+- `pendingAttribute`
+- `alreadyProcessedPseudoElement`
+- `fontFamily`
+- `fontWeight`
+- `_content`
+- `_hexValueFromContent`
+- `isV4`
+- `iconIdentifier`
+- `iconName4`
+- `meta`
+- `_abstract`
+- `operations`
+- `PseudoElements`
+- `_unwatched`
+- `MutationObserver$1`
+- `observeMutationsRoot`
+- `rest`
+- `PowerTransforms`
+- `transformString`
+- `main`
+- `ALL_SPACE`
+- `force`
+- `Masks`
+- `maskData`
+- `mainWidth`
+- `maskWidth`
+- `trans`
+- `maskRect`
+- `maskInnerGroupChildrenMixin`
+- `maskInnerGroup`
+- `maskOuterGroup`
+- `maskId`
+- `clipId`
+- `maskTag`
+- `defs`
+- `MissingIconIndicator`
+- `reduceMotion`
+- `gChildren`
+- `FILL`
+- `ANIMATION_BASE`
+- `OPACITY_ANIMATE`
+- `dot`
+- `SvgSymbols`
+- `symbolData`
+- `symbol`
+- `plugins`
+
+## 9. Exports
 
 - None
+
+## 10. Unresolved References
+
+- None
+
+## 11. Error / Problem Detection
+
+- No detected errors
+
+## 12. Project Systems
+
+- None
+
+## 13. Project Risks
+
+- None
+
+## 14. Recommendations
+
+- None
+
+## 15. Execution / Architecture Flow
+
+See the generated relation graph and file-level flows.
 
 ---
 
-# Original Source Code
+# ORIGINAL SOURCE CODE
 
-The following content is copied directly from:
+The following is the **exact local source content**
+read from:
 
 `/storage/emulated/0/MINIGRAM1/fontawesome/js/all.js`
 
-No AI rewriting was performed on the source code.
+It is NOT AI generated or rewritten.
 
 ```javascript
 /*!
@@ -6086,4 +6551,4 @@ No AI rewriting was performed on the source code.
 
 ---
 
-Generated automatically.
+Generated by MiniGram MD Intelligence V6.
