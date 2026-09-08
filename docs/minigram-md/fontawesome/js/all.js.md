@@ -1,523 +1,790 @@
 # fontawesome/js/all.js
 
-> MiniGram MD Intelligence V6
+## 🧠 MiniGram Project Brain
 
-## 1. File Identity
+### File Identity
 
-| Property | Value |
-|---|---|
-| Source | `fontawesome/js/all.js` |
-| Extension | `.js` |
-| Bytes | 1583964 |
-| Lines | 6027 |
-| SHA-256 | `fe2f5ec4da5a976140659ce8b8a664f7c1429e095b9516ddde647d3277034c56` |
-| Dependency Depth | 0 |
-
-## 2. Project Understanding
-
-Project understanding generated from the local intelligence engine.
-
-## 3. Architecture Context
-
-Architecture derived from the complete local relation graph.
-
-## 4. File Role
-
-This file belongs to:
-
-`fontawesome`
-
-The local intelligence engine detected
-0 direct dependencies
-and 1 consumers.
-
-## 5. Dependencies
-
-- None
-
-## 6. Used By
-
-- `report.json`
-
-## 7. Exact Relation Flow
-
-- No local relation detected
-
-## 8. Local Symbols
-
-- `ownKeys`
-- `_objectSpread2`
-- `_defineProperty`
-- `_toConsumableArray`
-- `_arrayWithoutHoles`
-- `_iterableToArray`
-- `_unsupportedIterableToArray`
-- `_arrayLikeToArray`
-- `_nonIterableSpread`
-- `familyProxy`
-- `get`
-- `bunker`
-- `normalizeIcons`
-- `defineIcons`
-- `_typeof`
-- `_wrapRegExp`
-- `BabelRegExp`
-- `buildGroups`
-- `_classCallCheck`
-- `_defineProperties`
-- `_createClass`
-- `_inherits`
-- `_setPrototypeOf`
-- `_slicedToArray`
-- `_arrayWithHoles`
-- `_iterableToArrayLimit`
-- `_nonIterableRest`
-- `noop`
-- `getAttrConfig`
-- `coerce`
-- `set`
-- `onChange`
-- `insertCss`
-- `nextUniqueId`
-- `toArray`
-- `classArray`
-- `htmlEscape`
-- `joinAttributes`
-- `joinStyles`
-- `transformIsMeaningful`
-- `transformForSvg`
-- `transformForCss`
-- `css`
-- `ensureCss`
-- `mixout`
-- `hooks`
-- `beforeDOMElementCreation`
-- `beforeI2svg`
-- `listener`
-- `domready`
-- `toHtml`
-- `iconFromMapping`
-- `known`
-- `bindInternal4`
-- `fastReduceObject`
-- `ucs2decode`
-- `toHex`
-- `codePointAt`
-- `isReserved`
-- `getIconName`
-- `build`
-- `lookup`
-- `byUnicode`
-- `byLigature`
-- `byAlias`
-- `byOldName`
-- `byOldUnicode`
-- `getDefaultUsablePrefix`
-- `emptyCanonicalIcon`
-- `getCanonicalPrefix`
-- `getCanonicalIcon`
-- `Library`
-- `add`
-- `reset`
-- `_pullDefinitions`
-- `registerPlugins`
-- `chainHooks`
-- `callHooks`
-- `callProvided`
-- `findIconDefinition`
-- `noAuto`
-- `i2svg`
-- `watch`
-- `icon`
-- `autoReplace`
-- `bootstrap`
-- `addPack`
-- `addPacks`
-- `addShims`
-- `domVariants`
-- `asIcon`
-- `asSymbol`
-- `makeInlineSvgAbstract`
-- `makeLayersTextAbstract`
-- `makeLayersCounterAbstract`
-- `asFoundIcon`
-- `maybeNotifyMissing`
-- `findIcon`
-- `begin`
-- `end`
-- `isWatched`
-- `hasPrefixAndIcon`
-- `hasBeenReplaced`
-- `getMutator`
-- `createElementNS`
-- `createElement`
-- `convertSVG`
-- `nodeAsComment`
-- `replace`
-- `nest`
-- `performOperationSync`
-- `perform`
-- `disableObservation`
-- `enableObservation`
-- `observe`
-- `disconnect`
-- `styleParser`
-- `classParser`
-- `attributesParser`
-- `blankMeta`
-- `parseMeta`
-- `generateMutation`
-- `onTree`
-- `hclAdd`
-- `hclRemove`
-- `onNode`
-- `resolveIcons`
-- `render`
-- `mutationObserverCallbacks`
-- `provides`
-- `layer`
-- `counter`
-- `text`
-- `hexValueFromContent`
-- `replaceForPosition`
-- `processable`
-- `searchPseudoElements`
-- `unwatch`
-- `parseTransformString`
-- `transform`
-- `parseNodeAttributes`
-- `fillBlack`
-- `deGroup`
-- `as`
-- `name`
-- `_WINDOW`
-- `_DOCUMENT`
-- `_ref`
-- `WINDOW`
-- `DOCUMENT`
-- `IS_BROWSER`
-- `IS_DOM`
-- `IS_IE`
-- `keys`
-- `symbols`
-- `i`
-- `source`
-- `n`
-- `_familyProxy`
-- `NAMESPACE_IDENTIFIER`
-- `PRODUCTION`
-- `FAMILY_CLASSIC`
-- `FAMILY_SHARP`
-- `FAMILIES`
-- `PREFIX_TO_STYLE`
-- `STYLE_TO_PREFIX`
-- `PREFIX_TO_LONG_STYLE`
-- `LONG_STYLE_TO_PREFIX`
-- `FONT_WEIGHT_TO_PREFIX`
-- `oneToTen`
-- `oneToTwenty`
-- `DUOTONE_CLASSES`
-- `prefixes`
-- `RESERVED_CLASSES`
-- `_len`
-- `w`
-- `namespace`
-- `expanded`
-- `params`
-- `_params$skipHooks`
-- `normalized`
-- `icons`
-- `_super`
-- `_this`
-- `g`
-- `result`
-- `groups`
-- `args`
-- `descriptor`
-- `_i`
-- `_arr`
-- `_n`
-- `_d`
-- `_s`
-- `_MUTATION_OBSERVER`
-- `_PERFORMANCE`
-- `MUTATION_OBSERVER`
-- `PERFORMANCE`
-- `UNITS_IN_GRID`
-- `DEFAULT_CSS_PREFIX`
-- `DEFAULT_REPLACEMENT_CLASS`
-- `DATA_FA_I2SVG`
-- `DATA_FA_PSEUDO_ELEMENT`
-- `DATA_FA_PSEUDO_ELEMENT_PENDING`
-- `DATA_PREFIX`
-- `DATA_ICON`
-- `HTML_CLASS_I2SVG_BASE_CLASS`
-- `MUTATION_APPROACH_ASYNC`
-- `TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS`
-- `ICON_SELECTION_SYNTAX_PATTERN`
-- `LAYERS_TEXT_CLASSNAME`
-- `FONT_FAMILY_PATTERN`
-- `ATTRIBUTES_WATCHED_FOR_MUTATION`
-- `initial`
-- `element`
-- `attrs`
-- `_ref2`
-- `val`
-- `_default`
-- `_config`
-- `config`
-- `_onChangeCb`
-- `d`
-- `meaninglessTransform`
-- `style`
-- `headChildren`
-- `beforeChild`
-- `child`
-- `tagName`
-- `idPool`
-- `size`
-- `id`
-- `array`
-- `outer`
-- `innerTranslate`
-- `innerScale`
-- `innerRotate`
-- `inner`
-- `path`
-- `baseStyles`
-- `dcp`
-- `drc`
-- `fp`
-- `rc`
-- `s`
-- `dPatt`
-- `customPropPatt`
-- `rPatt`
-- `_cssInserted`
-- `InjectCSS`
-- `functions`
-- `loaded`
-- `tag`
-- `reduce`
-- `output`
-- `length`
-- `value`
-- `extra`
-- `decoded`
-- `first`
-- `second`
-- `duotonePathRe`
-- `_LONG_STYLE`
-- `styles`
-- `LONG_STYLE`
-- `_defaultUsablePrefix`
-- `_byUnicode`
-- `_byLigature`
-- `_byOldName`
-- `_byOldUnicode`
-- `_byAlias`
-- `PREFIXES`
-- `parts`
-- `prefix`
-- `iconName`
-- `aliases`
-- `hasRegular`
-- `shimLookups`
-- `maybeNameMaybeUnicode`
-- `oldUnicode`
-- `newUnicode`
-- `_params$family`
-- `defined`
-- `PREFIXES_FOR_FAMILY`
-- `_famProps`
-- `_params$skipLookups`
-- `famProps`
-- `givenPrefix`
-- `family`
-- `canonical`
-- `shim`
-- `aliasIconName`
-- `additions`
-- `longPrefix`
-- `_normalized$key`
-- `_plugins`
-- `_hooks`
-- `providers`
-- `defaultProviderKeys`
-- `obj`
-- `hookFns`
-- `_len2`
-- `hook`
-- `library`
-- `dom`
-- `autoReplaceSvgRoot`
-- `parse`
-- `canonicalIcon`
-- `_prefix`
-- `api`
-- `_params$autoReplaceSv`
-- `_namespace$shims`
-- `container`
-- `children`
-- `width`
-- `offset`
-- `_params$icons`
-- `isUploadedIcon`
-- `attrClass`
-- `content`
-- `uploadedIconWidthStyle`
-- `attributes`
-- `styleString`
-- `styles$1`
-- `height`
-- `_icon$slice`
-- `missingIconResolutionMixin`
-- `noop$1`
-- `p`
-- `preamble`
-- `perf`
-- `noop$2`
-- `mutator`
-- `_params$ceFn`
-- `comment`
-- `mutators`
-- `node`
-- `_abstract2`
-- `forSvg`
-- `splitClasses`
-- `newInnerHTML`
-- `callbackFunction`
-- `frame`
-- `mark`
-- `disabled`
-- `mo`
-- `_options$treeCallback`
-- `defaultPrefix`
-- `_getCanonicalIcon`
-- `prop`
-- `existingPrefix`
-- `existingIconName`
-- `innerText`
-- `extraAttributes`
-- `title`
-- `titleId`
-- `parser`
-- `_classParser`
-- `pluginMeta`
-- `extraStyles`
-- `styles$2`
-- `nodeMeta`
-- `knownPrefixes`
-- `callback`
-- `htmlClassList`
-- `prefixesDomQuery`
-- `candidates`
-- `mutations`
-- `mutation`
-- `iconDefinition`
-- `mask`
-- `_params$transform`
-- `ReplaceElements`
-- `_params$node`
-- `nextChild`
-- `Layers`
-- `_params$classes`
-- `LayersCounter`
-- `_params$title`
-- `LayersText`
-- `computedFontSize`
-- `boundingClientRect`
-- `CLEAN_CONTENT_PATTERN`
-- `SECONDARY_UNICODE_RANGE`
-- `cleaned`
-- `codePoint`
-- `isPrependTen`
-- `isDoubled`
-- `pendingAttribute`
-- `alreadyProcessedPseudoElement`
-- `fontFamily`
-- `fontWeight`
-- `_content`
-- `_hexValueFromContent`
-- `isV4`
-- `iconIdentifier`
-- `iconName4`
-- `meta`
-- `_abstract`
-- `operations`
-- `PseudoElements`
-- `_unwatched`
-- `MutationObserver$1`
-- `observeMutationsRoot`
-- `rest`
-- `PowerTransforms`
-- `transformString`
-- `main`
-- `ALL_SPACE`
-- `force`
-- `Masks`
-- `maskData`
-- `mainWidth`
-- `maskWidth`
-- `trans`
-- `maskRect`
-- `maskInnerGroupChildrenMixin`
-- `maskInnerGroup`
-- `maskOuterGroup`
-- `maskId`
-- `clipId`
-- `maskTag`
-- `defs`
-- `MissingIconIndicator`
-- `reduceMotion`
-- `gChildren`
-- `FILL`
-- `ANIMATION_BASE`
-- `OPACITY_ANIMATE`
-- `dot`
-- `SvgSymbols`
-- `symbolData`
-- `symbol`
-- `plugins`
-
-## 9. Exports
-
-- None
-
-## 10. Unresolved References
-
-- None
-
-## 11. Error / Problem Detection
-
-- No detected errors
-
-## 12. Project Systems
-
-- None
-
-## 13. Project Risks
-
-- None
-
-## 14. Recommendations
-
-- None
-
-## 15. Execution / Architecture Flow
-
-See the generated relation graph and file-level flows.
+- Path: `fontawesome/js/all.js`
+- Extension: `.js`
+- Size: 1583964 bytes
+- Lines: 6027
+- SHA-256: `fe2f5ec4da5a976140659ce8b8a664f7c1429e095b9516ddde647d3277034c56`
+- Dependency depth: 0
 
 ---
 
-# ORIGINAL SOURCE CODE
+## Project Understanding
 
-The following is the **exact local source content**
-read from:
+This document is generated by the MiniGram MD Intelligence V7
+project brain.
 
-`/storage/emulated/0/MINIGRAM1/fontawesome/js/all.js`
+The source file is preserved exactly at the bottom of this
+document.
 
-It is NOT AI generated or rewritten.
+---
+
+## Intelligence Signals
+
+- contains-functions
+- handles-events
+- touches-dom
+
+---
+
+## Dependencies
+
+- None
+
+---
+
+## Used By
+
+- None
+
+---
+
+## Relations
+
+- None
+
+---
+
+## Functions
+
+- ownKeys
+- _objectSpread2
+- _defineProperty
+- _toConsumableArray
+- _arrayWithoutHoles
+- _iterableToArray
+- _unsupportedIterableToArray
+- _arrayLikeToArray
+- _nonIterableSpread
+- familyProxy
+- get
+- bunker
+- normalizeIcons
+- defineIcons
+- _typeof
+- _wrapRegExp
+- BabelRegExp
+- buildGroups
+- _classCallCheck
+- _defineProperties
+- _createClass
+- _inherits
+- _setPrototypeOf
+- _slicedToArray
+- _arrayWithHoles
+- _iterableToArrayLimit
+- _nonIterableRest
+- noop
+- getAttrConfig
+- coerce
+- set
+- onChange
+- insertCss
+- nextUniqueId
+- toArray
+- classArray
+- htmlEscape
+- joinAttributes
+- joinStyles
+- transformIsMeaningful
+- transformForSvg
+- transformForCss
+- css
+- ensureCss
+- mixout
+- hooks
+- beforeDOMElementCreation
+- beforeI2svg
+- listener
+- domready
+- toHtml
+- iconFromMapping
+- known
+- bindInternal4
+- fastReduceObject
+- ucs2decode
+- toHex
+- codePointAt
+- isReserved
+- getIconName
+- build
+- lookup
+- byUnicode
+- byLigature
+- byAlias
+- byOldName
+- byOldUnicode
+- getDefaultUsablePrefix
+- emptyCanonicalIcon
+- getCanonicalPrefix
+- getCanonicalIcon
+- Library
+- add
+- reset
+- _pullDefinitions
+- registerPlugins
+- chainHooks
+- callHooks
+- callProvided
+- findIconDefinition
+- noAuto
+- i2svg
+- watch
+- icon
+- autoReplace
+- bootstrap
+- addPack
+- addPacks
+- addShims
+- domVariants
+- asIcon
+- asSymbol
+- makeInlineSvgAbstract
+- makeLayersTextAbstract
+- makeLayersCounterAbstract
+- asFoundIcon
+- maybeNotifyMissing
+- findIcon
+- begin
+- end
+- isWatched
+- hasPrefixAndIcon
+- hasBeenReplaced
+- getMutator
+- createElementNS
+- createElement
+- convertSVG
+- nodeAsComment
+- replace
+- nest
+- performOperationSync
+- perform
+- disableObservation
+- enableObservation
+- observe
+- disconnect
+- styleParser
+- classParser
+- attributesParser
+- blankMeta
+- parseMeta
+- generateMutation
+- onTree
+- hclAdd
+- hclRemove
+- onNode
+- resolveIcons
+- render
+- mutationObserverCallbacks
+- provides
+- layer
+- counter
+- text
+- hexValueFromContent
+- replaceForPosition
+- processable
+- searchPseudoElements
+- unwatch
+- parseTransformString
+- transform
+- parseNodeAttributes
+- fillBlack
+- deGroup
+
+---
+
+## Symbols
+
+- as
+- name
+- _WINDOW
+- _DOCUMENT
+- _ref
+- WINDOW
+- DOCUMENT
+- IS_BROWSER
+- IS_DOM
+- IS_IE
+- keys
+- symbols
+- i
+- source
+- n
+- _familyProxy
+- NAMESPACE_IDENTIFIER
+- PRODUCTION
+- FAMILY_CLASSIC
+- FAMILY_SHARP
+- FAMILIES
+- PREFIX_TO_STYLE
+- STYLE_TO_PREFIX
+- PREFIX_TO_LONG_STYLE
+- LONG_STYLE_TO_PREFIX
+- FONT_WEIGHT_TO_PREFIX
+- oneToTen
+- oneToTwenty
+- DUOTONE_CLASSES
+- prefixes
+- RESERVED_CLASSES
+- _len
+- w
+- namespace
+- icon
+- expanded
+- params
+- _params$skipHooks
+- normalized
+- icons
+- _super
+- _this
+- g
+- result
+- groups
+- args
+- descriptor
+- _i
+- _arr
+- _n
+- _d
+- _s
+- noop
+- _MUTATION_OBSERVER
+- _PERFORMANCE
+- MUTATION_OBSERVER
+- PERFORMANCE
+- UNITS_IN_GRID
+- DEFAULT_CSS_PREFIX
+- DEFAULT_REPLACEMENT_CLASS
+- DATA_FA_I2SVG
+- DATA_FA_PSEUDO_ELEMENT
+- DATA_FA_PSEUDO_ELEMENT_PENDING
+- DATA_PREFIX
+- DATA_ICON
+- HTML_CLASS_I2SVG_BASE_CLASS
+- MUTATION_APPROACH_ASYNC
+- TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS
+- ICON_SELECTION_SYNTAX_PATTERN
+- LAYERS_TEXT_CLASSNAME
+- FONT_FAMILY_PATTERN
+- ATTRIBUTES_WATCHED_FOR_MUTATION
+- initial
+- element
+- attrs
+- _ref2
+- val
+- _default
+- _config
+- config
+- _onChangeCb
+- d
+- meaninglessTransform
+- style
+- headChildren
+- beforeChild
+- child
+- tagName
+- idPool
+- size
+- id
+- array
+- transform
+- outer
+- innerTranslate
+- innerScale
+- innerRotate
+- inner
+- path
+- baseStyles
+- dcp
+- drc
+- fp
+- rc
+- s
+- dPatt
+- customPropPatt
+- rPatt
+- _cssInserted
+- InjectCSS
+- functions
+- listener
+- loaded
+- tag
+- bindInternal4
+- reduce
+- output
+- counter
+- length
+- value
+- extra
+- decoded
+- first
+- second
+- duotonePathRe
+- _LONG_STYLE
+- styles
+- LONG_STYLE
+- _defaultUsablePrefix
+- _byUnicode
+- _byLigature
+- _byOldName
+- _byOldUnicode
+- _byAlias
+- PREFIXES
+- parts
+- prefix
+- iconName
+- build
+- lookup
+- aliases
+- hasRegular
+- shimLookups
+- maybeNameMaybeUnicode
+- oldUnicode
+- newUnicode
+- emptyCanonicalIcon
+- _params$family
+- defined
+- PREFIXES_FOR_FAMILY
+- _famProps
+- _params$skipLookups
+- famProps
+- givenPrefix
+- family
+- canonical
+- shim
+- aliasIconName
+- Library
+- additions
+- longPrefix
+- _normalized$key
+- _plugins
+- _hooks
+- providers
+- defaultProviderKeys
+- obj
+- mixout
+- hooks
+- hookFns
+- _len2
+- hook
+- library
+- noAuto
+- dom
+- autoReplaceSvgRoot
+- parse
+- canonicalIcon
+- _prefix
+- api
+- autoReplace
+- _params$autoReplaceSv
+- _namespace$shims
+- container
+- children
+- width
+- offset
+- _params$icons
+- isUploadedIcon
+- attrClass
+- content
+- uploadedIconWidthStyle
+- attributes
+- styleString
+- styles$1
+- height
+- _icon$slice
+- missingIconResolutionMixin
+- noop$1
+- p
+- preamble
+- begin
+- end
+- perf
+- noop$2
+- i2svg
+- mutator
+- _params$ceFn
+- comment
+- mutators
+- node
+- _abstract2
+- forSvg
+- splitClasses
+- newInnerHTML
+- callbackFunction
+- frame
+- mark
+- disabled
+- mo
+- _options$treeCallback
+- defaultPrefix
+- _getCanonicalIcon
+- prop
+- existingPrefix
+- existingIconName
+- innerText
+- extraAttributes
+- title
+- titleId
+- parser
+- _classParser
+- pluginMeta
+- extraStyles
+- styles$2
+- nodeMeta
+- knownPrefixes
+- callback
+- htmlClassList
+- hclAdd
+- hclRemove
+- prefixesDomQuery
+- candidates
+- mutations
+- mutation
+- iconDefinition
+- mask
+- render
+- _params$transform
+- ReplaceElements
+- _params$node
+- nextChild
+- Layers
+- _params$classes
+- LayersCounter
+- _params$title
+- LayersText
+- computedFontSize
+- boundingClientRect
+- CLEAN_CONTENT_PATTERN
+- SECONDARY_UNICODE_RANGE
+- cleaned
+- codePoint
+- isPrependTen
+- isDoubled
+- pendingAttribute
+- alreadyProcessedPseudoElement
+- fontFamily
+- fontWeight
+- _content
+- _hexValueFromContent
+- isV4
+- iconIdentifier
+- iconName4
+- meta
+- _abstract
+- operations
+- PseudoElements
+- _unwatched
+- MutationObserver$1
+- observeMutationsRoot
+- parseTransformString
+- rest
+- PowerTransforms
+- transformString
+- main
+- ALL_SPACE
+- force
+- Masks
+- maskData
+- mainWidth
+- maskWidth
+- trans
+- maskRect
+- maskInnerGroupChildrenMixin
+- maskInnerGroup
+- maskOuterGroup
+- maskId
+- clipId
+- maskTag
+- defs
+- MissingIconIndicator
+- reduceMotion
+- gChildren
+- FILL
+- ANIMATION_BASE
+- OPACITY_ANIMATE
+- dot
+- SvgSymbols
+- symbolData
+- symbol
+- plugins
+
+---
+
+## Exports
+
+- None
+
+---
+
+## Function Call Hints
+
+- {"function":"ownKeys","calls":12,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js"]}
+- {"function":"_objectSpread2","calls":83,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js"]}
+- {"function":"_defineProperty","calls":56,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"_toConsumableArray","calls":13,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"_arrayWithoutHoles","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"_iterableToArray","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"_unsupportedIterableToArray","calls":9,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"_arrayLikeToArray","calls":16,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"_nonIterableSpread","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"familyProxy","calls":24,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"get","calls":11,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js","reels/reels.bundle.js","reels.bundle.js"]}
+- {"function":"bunker","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js","fontawesome/js/v4-shims.js"]}
+- {"function":"normalizeIcons","calls":12,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js"]}
+- {"function":"defineIcons","calls":16,"owners":["fontawesome/js/all.js","fontawesome/js/brands.js","fontawesome/js/fontawesome.js","fontawesome/js/regular.js","fontawesome/js/solid.js"]}
+- {"function":"_typeof","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_wrapRegExp","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"BabelRegExp","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"buildGroups","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_classCallCheck","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_defineProperties","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_createClass","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_inherits","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_setPrototypeOf","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_slicedToArray","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_arrayWithHoles","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_iterableToArrayLimit","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"_nonIterableRest","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"noop","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"getAttrConfig","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"coerce","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"set","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"onChange","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"insertCss","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"nextUniqueId","calls":6,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"toArray","calls":7,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"classArray","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"htmlEscape","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"joinAttributes","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"joinStyles","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"transformIsMeaningful","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"transformForSvg","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"transformForCss","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"css","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"ensureCss","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"mixout","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"hooks","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"domready","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/conflict-detection.js","fontawesome/js/fontawesome.js"]}
+- {"function":"toHtml","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"iconFromMapping","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"bindInternal4","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"ucs2decode","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"toHex","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"codePointAt","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"isReserved","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"getIconName","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"build","calls":6,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"lookup","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"byUnicode","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"byLigature","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"byAlias","calls":8,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"byOldName","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"byOldUnicode","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"getDefaultUsablePrefix","calls":9,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"emptyCanonicalIcon","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"getCanonicalPrefix","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"getCanonicalIcon","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"Library","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"add","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"registerPlugins","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"chainHooks","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"callHooks","calls":9,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"callProvided","calls":10,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"findIconDefinition","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"noAuto","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"i2svg","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"watch","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"autoReplace","calls":6,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"bootstrap","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"addPack","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"domVariants","calls":5,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"asIcon","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"asSymbol","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"makeInlineSvgAbstract","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"makeLayersTextAbstract","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"makeLayersCounterAbstract","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"asFoundIcon","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"maybeNotifyMissing","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"findIcon","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"begin","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"end","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"isWatched","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"hasPrefixAndIcon","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"hasBeenReplaced","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"getMutator","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"createElementNS","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"createElement","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"convertSVG","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"nodeAsComment","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"replace","calls":14,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"perform","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"disableObservation","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"enableObservation","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"observe","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"disconnect","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"styleParser","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"classParser","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"attributesParser","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"blankMeta","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"parseMeta","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"generateMutation","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"onTree","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"hclAdd","calls":4,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"hclRemove","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"resolveIcons","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"mutationObserverCallbacks","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"provides","calls":7,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"hexValueFromContent","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"replaceForPosition","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"searchPseudoElements","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"parseTransformString","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"parseNodeAttributes","calls":3,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"fillBlack","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+- {"function":"deGroup","calls":2,"owners":["fontawesome/js/all.js","fontawesome/js/fontawesome.js"]}
+
+---
+
+## Events
+
+- {"event":"DOMContentLoaded","source":"addEventListener"}
+- {"event":"eToTen","source":"inline-handler"}
+- {"event":"eToTwenty","source":"inline-handler"}
+- {"event":"eToTen","source":"inline-handler"}
+- {"event":"eToTwenty","source":"inline-handler"}
+- {"event":"eToTen","source":"inline-handler"}
+- {"event":"eToTwenty","source":"inline-handler"}
+- {"event":"eToTen","source":"inline-handler"}
+- {"event":"eToTwenty","source":"inline-handler"}
+
+---
+
+## DOM
+
+### IDs
+
+- None
+
+### Classes
+
+- None
+
+### Elements
+
+- None
+
+---
+
+## JS Selectors
+
+- {"selector":"script[","kind":"querySelector"}
+- {"selector":"*","kind":"querySelector"}
+
+---
+
+## CSS Selectors
+
+### Classes
+
+- None
+
+### IDs
+
+- None
+
+### Selectors
+
+- None
+
+---
+
+## API / Data
+
+### Calls
+
+- None
+
+### Tables
+
+- None
+
+### Endpoints
+
+- None
+
+---
+
+## Routes
+
+- None
+
+---
+
+## Unresolved References
+
+- None
+
+---
+
+## Detected Problems
+
+- None
+
+---
+
+## Project Architecture
+
+- (root): {"files":16,"dependencies":16,"errors":1}
+- Games: {"files":37,"dependencies":16,"errors":0}
+- chat: {"files":9,"dependencies":4,"errors":0}
+- comments: {"files":2,"dependencies":0,"errors":0}
+- critical_css: {"files":1,"dependencies":0,"errors":0}
+- fontawesome: {"files":60,"dependencies":0,"errors":78}
+- future_system_structure: {"files":1,"dependencies":0,"errors":0}
+- global: {"files":1,"dependencies":0,"errors":0}
+- global_css: {"files":9,"dependencies":0,"errors":0}
+- home: {"files":3,"dependencies":0,"errors":0}
+- login: {"files":3,"dependencies":3,"errors":0}
+- main_js: {"files":79,"dependencies":0,"errors":11}
+- minigram-md: {"files":1,"dependencies":0,"errors":0}
+- notifications: {"files":3,"dependencies":0,"errors":0}
+- page_config: {"files":17,"dependencies":0,"errors":0}
+- profile: {"files":11,"dependencies":0,"errors":0}
+- r-css: {"files":9,"dependencies":0,"errors":0}
+- reel: {"files":3,"dependencies":0,"errors":9}
+- reels: {"files":17,"dependencies":10,"errors":0}
+- search: {"files":3,"dependencies":1,"errors":0}
+- settings: {"files":18,"dependencies":5,"errors":0}
+- share: {"files":2,"dependencies":0,"errors":0}
+- signup: {"files":3,"dependencies":3,"errors":0}
+- skeleton: {"files":1,"dependencies":0,"errors":0}
+- stories: {"files":6,"dependencies":0,"errors":0}
+- system.md: {"files":3,"dependencies":0,"errors":0}
+
+---
+
+## Project Flow
+
+- None
+
+---
+
+## Project Risks
+
+- None
+
+---
+
+## Recommendations
+
+- None
+
+---
+
+# ORIGINAL SOURCE
 
 ```javascript
 /*!
@@ -6548,7 +6815,3 @@ It is NOT AI generated or rewritten.
 }());
 
 ```
-
----
-
-Generated by MiniGram MD Intelligence V6.
