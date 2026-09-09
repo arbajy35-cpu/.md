@@ -1,0 +1,284 @@
+# carrom_home.html
+
+## 1. File Identity
+
+- **File Name:** `carrom_home.html`
+- **File Path:** `Games/carrom/carrom_home.html`
+- **Extension:** `.html`
+- **Lines:** 64
+- **Bytes:** 1848
+
+## 2. What This File Does
+
+- **[FACT]** This source file contains 64 lines and is part of the MiniGram source tree.
+
+## 3. 5th-Standard Explanation
+
+- **[INFERRED]** The file can be understood by examining its executable code, references, functions, events and relationships with other source files.
+
+## 4. When It Runs
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 5. Called By
+
+- None detected.
+
+## 6. Calls / Uses
+
+- None detected.
+
+## 7. Imports
+
+- `carrom_home.js` — line 62
+- `carrom_home.css` — line 7
+
+## 8. Exports
+
+- None detected.
+
+## 9. Globals Read
+
+- None detected.
+
+## 10. Globals Written
+
+- None detected.
+
+## 11. Inputs
+
+- **[INFERRED]** Inputs are derived from function parameters, events, referenced globals, DOM APIs and external resources when detectable.
+
+## 12. Outputs
+
+- **[INFERRED]** Outputs are derived from return statements, DOM mutations, exported values and external effects when detectable.
+
+## 13. Exact Execution Flow
+
+- **[INFERRED]** Static execution order is represented by discovered declarations, references and dependency relationships. Runtime branch order may require execution tracing.
+
+## 14. Forward Flow
+
+- None detected.
+
+## 15. Reverse Flow
+
+- None detected.
+
+## 16. Data Flow
+
+- **[INFERRED]** Data flow is reconstructed only from statically detectable references. Runtime values that depend on user input or network responses may remain unknown.
+
+## 17. UI Flow
+
+- **[INFERRED]** UI interaction points are reported when DOM APIs, event listeners or HTML references are detected.
+
+## 18. Network Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 19. Cache Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 20. Supabase Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 21. Error Flow
+
+- **[INFERRED]** Potential error paths are identified from detectable error handling constructs; complete runtime error behavior cannot be proven statically.
+
+## 22. Fallback Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 23. Dependency Graph
+
+### Incoming
+- None detected.
+
+### Outgoing
+- None detected.
+
+## 24. Before This File
+
+- [object Object]
+
+## 25. After This File
+
+- [object Object]
+
+## 26. Parallel Files
+
+- **[TODO]** Runtime parallelism requires execution tracing or explicit asynchronous scheduling analysis.
+
+## 27. Blocking Files
+
+- **[TODO]** Blocking behavior cannot always be proven from static source analysis.
+
+## 28. Required Files
+
+- None detected.
+
+## 29. Optional Files
+
+- **[TODO]** Optionality requires runtime/build configuration evidence.
+
+## 30. Performance Impact
+
+- **[INFERRED]** Static size: 1848 bytes; 64 lines. Runtime performance requires profiling for reliable measurement.
+
+## 31. Memory Impact
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 32. Network Impact
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 33. Low-End Behavior
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 34. Security
+
+- **[WARNING]** Static analysis is not a complete security audit. Secrets, dangerous sinks and sensitive configuration should be reviewed separately.
+
+## 35. Common Bugs
+
+- **[TODO]** Potential bugs require combining static findings with tests and runtime reports.
+
+## 36. Debugging
+
+- **[INFERRED]** Start by inspecting Games/carrom/carrom_home.html, then inspect its incoming and outgoing dependency relationships.
+
+## 37. If File Is Deleted
+
+- **[INFERRED]** No local dependent file was detected by the static graph.
+
+## 38. If File Fails
+
+- **[INFERRED]** No local caller was detected.
+
+## 39. Change Impact
+
+- **[INFERRED]** Changes should be reviewed against 0 incoming and 0 outgoing detected relationship(s).
+
+## 40. Related Files
+
+- None detected.
+
+## 41. Real Code References
+
+- `carrom_home.js` — line 62
+- `carrom_home.css` — line 7
+
+## 42. Exact Line References
+
+- `carrom_home.js` — line 62
+- `carrom_home.css` — line 7
+
+## 43. Tests
+
+- **[TODO]** No test result is claimed unless tests are actually executed.
+
+## 44. Developer Checklist
+
+- Verify source behavior before changing it.
+- Check incoming dependencies.
+- Check outgoing dependencies.
+- Run relevant tests.
+- Review generated documentation after changes.
+
+## 45. Simple Example
+
+- **[INFERRED]** Use the detected functions, events and dependency graph as the starting point for understanding this file.
+
+## 46. Confidence / Evidence
+
+- Static facts: **HIGH**
+- Runtime behavior: **LIMITED**
+- Inferred behavior: **MEDIUM**
+- Unknown areas: **EXPLICIT**
+
+The system does not present unknown runtime behavior as proven fact.
+
+## 47. One-Line Summary
+
+Source file: Games/carrom/carrom_home.html.
+
+---
+
+# SOURCE CODE
+
+> Source: `Games/carrom/carrom_home.html`
+> Snapshot generated automatically.
+> Secrets are redacted before documentation output.
+
+```html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrom King - Home</title>
+  <link rel="stylesheet" href="carrom_home.css">
+</head>
+<body>
+  <div class="home-container">
+    <div class="bg-coins"></div>
+    
+    <div class="logo">
+      <div class="striker-icon"></div>
+      <h1>CARROM <span>KING</span></h1>
+      <p class="tagline">Master The Board</p>
+    </div>
+
+    <div class="menu">
+      <button id="startBtn" class="btn-primary">
+        <span class="icon">🎯</span>
+        START GAME
+      </button>
+      
+      <button id="howToBtn" class="btn-secondary">
+        <span class="icon">📖</span>
+        HOW TO PLAY
+      </button>
+      
+      <button id="settingsBtn" class="btn-secondary">
+        <span class="icon">⚙️</span>
+        SETTINGS
+      </button>
+    </div>
+
+    <div id="howToModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>How To Play</h2>
+        <div class="rules">
+          <div class="rule-item">
+            <strong>1. Position:</strong> Tap blue zone below striker, drag left-right
+          </div>
+          <div class="rule-item">
+            <strong>2. Shoot:</strong> Hold striker, pull back, release to shoot
+          </div>
+          <div class="rule-item">
+            <strong>3. Score:</strong> White coins = +1, Black = AI only, Queen = +3
+          </div>
+          <div class="rule-item">
+            <strong>4. Win:</strong> Pocket all your coins first to win!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Made with ❤️ by Shila | v2.0</p>
+    </div>
+  </div>
+
+  <script src="carrom_home.js"></script>
+</body>
+</html>
+```
