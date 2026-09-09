@@ -1,0 +1,940 @@
+# carrom.js
+
+## 1. File Identity
+
+- **File Name:** `carrom.js`
+- **File Path:** `Games/carrom/carrom_mode/carrom_game/carrom.js`
+- **Extension:** `.js`
+- **Lines:** 669
+- **Bytes:** 20937
+
+## 2. What This File Does
+
+- **[FACT]** This source file contains 669 lines and is part of the MiniGram source tree.
+
+## 3. 5th-Standard Explanation
+
+- **[INFERRED]** The file can be understood by examining its executable code, references, functions, events and relationships with other source files.
+
+## 4. When It Runs
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 5. Called By
+
+- None detected.
+
+## 6. Calls / Uses
+
+- None detected.
+
+## 7. Imports
+
+- None detected.
+
+## 8. Exports
+
+- None detected.
+
+## 9. Globals Read
+
+- None detected.
+
+## 10. Globals Written
+
+- None detected.
+
+## 11. Inputs
+
+- **[INFERRED]** Inputs are derived from function parameters, events, referenced globals, DOM APIs and external resources when detectable.
+
+## 12. Outputs
+
+- **[INFERRED]** Outputs are derived from return statements, DOM mutations, exported values and external effects when detectable.
+
+## 13. Exact Execution Flow
+
+- **[INFERRED]** Static execution order is represented by discovered declarations, references and dependency relationships. Runtime branch order may require execution tracing.
+
+## 14. Forward Flow
+
+- None detected.
+
+## 15. Reverse Flow
+
+- None detected.
+
+## 16. Data Flow
+
+- **[INFERRED]** Data flow is reconstructed only from statically detectable references. Runtime values that depend on user input or network responses may remain unknown.
+
+## 17. UI Flow
+
+- **[INFERRED]** UI interaction points are reported when DOM APIs, event listeners or HTML references are detected.
+
+## 18. Network Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 19. Cache Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 20. Supabase Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 21. Error Flow
+
+- **[INFERRED]** Potential error paths are identified from detectable error handling constructs; complete runtime error behavior cannot be proven statically.
+
+## 22. Fallback Flow
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 23. Dependency Graph
+
+### Incoming
+- None detected.
+
+### Outgoing
+- None detected.
+
+## 24. Before This File
+
+- [object Object]
+
+## 25. After This File
+
+- [object Object]
+
+## 26. Parallel Files
+
+- **[TODO]** Runtime parallelism requires execution tracing or explicit asynchronous scheduling analysis.
+
+## 27. Blocking Files
+
+- **[TODO]** Blocking behavior cannot always be proven from static source analysis.
+
+## 28. Required Files
+
+- None detected.
+
+## 29. Optional Files
+
+- **[TODO]** Optionality requires runtime/build configuration evidence.
+
+## 30. Performance Impact
+
+- **[INFERRED]** Static size: 20937 bytes; 669 lines. Runtime performance requires profiling for reliable measurement.
+
+## 31. Memory Impact
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 32. Network Impact
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 33. Low-End Behavior
+
+- **[UNKNOWN]** Not determinable from static source analysis.
+
+## 34. Security
+
+- **[WARNING]** Static analysis is not a complete security audit. Secrets, dangerous sinks and sensitive configuration should be reviewed separately.
+
+## 35. Common Bugs
+
+- **[TODO]** Potential bugs require combining static findings with tests and runtime reports.
+
+## 36. Debugging
+
+- **[INFERRED]** Start by inspecting Games/carrom/carrom_mode/carrom_game/carrom.js, then inspect its incoming and outgoing dependency relationships.
+
+## 37. If File Is Deleted
+
+- **[INFERRED]** No local dependent file was detected by the static graph.
+
+## 38. If File Fails
+
+- **[INFERRED]** No local caller was detected.
+
+## 39. Change Impact
+
+- **[INFERRED]** Changes should be reviewed against 0 incoming and 0 outgoing detected relationship(s).
+
+## 40. Related Files
+
+- None detected.
+
+## 41. Real Code References
+
+- `getCanvasPos` — line 52
+- `initCoins` — line 72
+- `angle` — line 77
+- `angle` — line 92
+- `setupPlayerNames` — line 107
+- `drawBoard` — line 125
+- `drawCoins` — line 198
+- `drawStriker` — line 221
+- `updatePhysics` — line 270
+- `updateScore` — line 391
+- `resetStrikerPosition` — line 418
+- `switchTurn` — line 425
+- `aiMove` — line 449
+- `shootAngle` — line 501
+- `gameLoop` — line 519
+- `handleStart` — line 536
+- `handleMove` — line 567
+- `handleEnd` — line 581
+- `mousedown` — line 619
+- `mousemove` — line 620
+- `mouseup` — line 621
+- `touchstart` — line 623
+- `touchmove` — line 624
+- `touchend` — line 625
+- `keydown` — line 628
+- `click` — line 638
+- `click` — line 656
+- `click` — line 662
+
+## 42. Exact Line References
+
+- `getCanvasPos` — line 52
+- `initCoins` — line 72
+- `angle` — line 77
+- `angle` — line 92
+- `setupPlayerNames` — line 107
+- `drawBoard` — line 125
+- `drawCoins` — line 198
+- `drawStriker` — line 221
+- `updatePhysics` — line 270
+- `updateScore` — line 391
+- `resetStrikerPosition` — line 418
+- `switchTurn` — line 425
+- `aiMove` — line 449
+- `shootAngle` — line 501
+- `gameLoop` — line 519
+- `handleStart` — line 536
+- `handleMove` — line 567
+- `handleEnd` — line 581
+- `mousedown` — line 619
+- `mousemove` — line 620
+- `mouseup` — line 621
+- `touchstart` — line 623
+- `touchmove` — line 624
+- `touchend` — line 625
+- `keydown` — line 628
+- `click` — line 638
+- `click` — line 656
+- `click` — line 662
+
+## 43. Tests
+
+- **[TODO]** No test result is claimed unless tests are actually executed.
+
+## 44. Developer Checklist
+
+- Verify source behavior before changing it.
+- Check incoming dependencies.
+- Check outgoing dependencies.
+- Run relevant tests.
+- Review generated documentation after changes.
+
+## 45. Simple Example
+
+- **[INFERRED]** Use the detected functions, events and dependency graph as the starting point for understanding this file.
+
+## 46. Confidence / Evidence
+
+- Static facts: **HIGH**
+- Runtime behavior: **LIMITED**
+- Inferred behavior: **MEDIUM**
+- Unknown areas: **EXPLICIT**
+
+The system does not present unknown runtime behavior as proven fact.
+
+## 47. One-Line Summary
+
+Source file: Games/carrom/carrom_mode/carrom_game/carrom.js.
+
+---
+
+# SOURCE CODE
+
+> Source: `Games/carrom/carrom_mode/carrom_game/carrom.js`
+> Snapshot generated automatically.
+> Secrets are redacted before documentation output.
+
+```js
+const canvas = document.getElementById('carromBoard');
+const ctx = canvas?.getContext('2d');
+const playerScoreEl = document.getElementById('playerScore');
+const aiScoreEl = document.getElementById('aiScore');
+const turnIndicator = document.getElementById('turnIndicator');
+const resetBtn = document.getElementById('resetBtn');
+const backBtn = document.getElementById('backBtn');
+const powerFill = document.getElementById('powerFill');
+const powerValue = document.getElementById('powerValue');
+const settingsBtn = document.getElementById('settingsBtn');
+
+// Get game mode from URL
+const urlParams = new URLSearchParams(window.location.search);
+const GAME_MODE = urlParams.get('mode') || 'classic';
+
+const BOARD_SIZE = 400;
+const POCKET_RADIUS = 22;
+const COIN_RADIUS = 10;
+const STRIKER_RADIUS = 13;
+const FRICTION = 0.985;
+const BASELINE_Y_PLAYER = 320;
+const BASELINE_Y_AI = 80;
+const BASELINE_MIN_X = 80;
+const BASELINE_MAX_X = 320;
+const MAX_DRAG_DISTANCE = 100;
+const MAX_POWER = 15;
+
+let coins = [];
+let striker = { x: 200, y: BASELINE_Y_PLAYER, vx: 0, vy: 0, radius: STRIKER_RADIUS };
+let isDragging = false;
+let isPositioning = false;
+let dragStart = null;
+let dragCurrent = null;
+let playerScore = 0;
+let aiScore = 0;
+let isPlayerTurn = true;
+let pocketedThisTurn = false;
+let gameActive = true;
+let hasShot = false;
+let aiThinking = false;
+let aiStatus = '';
+let currentPower = 0;
+let selectedCoin = null;
+let foulCommitted = false;
+let playerNames = ['Player 1', 'Player 2']; // 2 Player names
+
+const pockets = [
+  { x: 20, y: 20 }, { x: 380, y: 20 },
+  { x: 20, y: 380 }, { x: 380, y: 380 }
+];
+
+function getCanvasPos(e) {
+  const rect = canvas.getBoundingClientRect();
+  const scaleX = canvas.width / rect.width;
+  const scaleY = canvas.height / rect.height;
+
+  let clientX, clientY;
+  if (e.touches && e.touches.length > 0) {
+    clientX = e.touches[0].clientX;
+    clientY = e.touches[0].clientY;
+  } else {
+    clientX = e.clientX;
+    clientY = e.clientY;
+  }
+
+  return {
+    x: (clientX - rect.left) * scaleX,
+    y: (clientY - rect.top) * scaleY
+  };
+}
+
+function initCoins() {
+  coins = [];
+  coins.push({ x: 200, y: 200, vx: 0, vy: 0, radius: COIN_RADIUS, color: '#e63946', type: 'queen', pocketed: false });
+
+  for (let i = 0; i < 9; i++) {
+    let angle = (i / 9) * Math.PI * 2;
+    coins.push({
+      x: 200 + Math.cos(angle) * 22,
+      y: 200 + Math.sin(angle) * 22,
+      vx: 0, vy: 0,
+      radius: COIN_RADIUS,
+      color: '#f1faee',
+      type: 'white',
+      pocketed: false,
+      originalX: 200 + Math.cos(angle) * 22,
+      originalY: 200 + Math.sin(angle) * 22
+    });
+  }
+
+  for (let i = 0; i < 9; i++) {
+    let angle = (i / 9) * Math.PI * 2 + Math.PI / 9;
+    coins.push({
+      x: 200 + Math.cos(angle) * 44,
+      y: 200 + Math.sin(angle) * 44,
+      vx: 0, vy: 0,
+      radius: COIN_RADIUS,
+      color: '#1d3557',
+      type: 'black',
+      pocketed: false,
+      originalX: 200 + Math.cos(angle) * 44,
+      originalY: 200 + Math.sin(angle) * 44
+    });
+  }
+}
+
+function setupPlayerNames() {
+  if (GAME_MODE === '2player') {
+    const p1 = prompt('Player 1 ka naam:', 'Player 1') || 'Player 1';
+    const p2 = prompt('Player 2 ka naam:', 'Mummy') || 'Player 2';
+    playerNames = [p1, p2];
+
+    // Update UI labels
+    const labels = document.querySelectorAll('.player-score.label');
+    if (labels[0]) labels[0].textContent = p1.toUpperCase();
+    if (labels[1]) labels[1].textContent = p2.toUpperCase();
+
+    // Update turn indicator
+    if (turnIndicator) {
+      turnIndicator.textContent = `${playerNames[0]}'s Turn`;
+    }
+  }
+}
+
+function drawBoard() {
+  if (!ctx) return;
+
+  ctx.fillStyle = '#d4a574';
+  ctx.fillRect(0, 0, BOARD_SIZE, BOARD_SIZE);
+
+  ctx.strokeStyle = '#8b4513';
+  ctx.lineWidth = 3;
+  ctx.strokeRect(35, 35, 330, 330);
+
+  ctx.beginPath();
+  ctx.arc(200, 200, 50, 0, Math.PI * 2);
+  ctx.stroke();
+
+  ctx.fillStyle = '#000';
+  pockets.forEach(p => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, POCKET_RADIUS, 0, Math.PI * 2);
+    ctx.fill();
+  });
+
+  ctx.strokeStyle = isPlayerTurn? '#ff6b35' : '#e63946';
+  ctx.lineWidth = 3;
+  ctx.setLineDash([5, 5]);
+  ctx.beginPath();
+  ctx.moveTo(BASELINE_MIN_X, BASELINE_Y_PLAYER);
+  ctx.lineTo(BASELINE_MAX_X, BASELINE_Y_PLAYER);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(BASELINE_MIN_X, BASELINE_Y_AI);
+  ctx.lineTo(BASELINE_MAX_X, BASELINE_Y_AI);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  if (!hasShot && gameActive && (isPlayerTurn || GAME_MODE === '2player')) {
+    ctx.fillStyle = 'rgba(69,123,157,0.25)';
+    const baselineY = isPlayerTurn? BASELINE_Y_PLAYER : BASELINE_Y_AI;
+    ctx.fillRect(BASELINE_MIN_X, baselineY + 15, BASELINE_MAX_X - BASELINE_MIN_X, 70);
+
+    ctx.fillStyle = isPositioning? 'rgba(69,123,157,0.8)' : 'rgba(255,107,53,0.5)';
+    ctx.beginPath();
+    ctx.arc(striker.x, striker.y, striker.radius + 18, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 11px Arial';
+    ctx.textAlign = 'center';
+    if (isPositioning) {
+      ctx.fillText('← POSITION MODE →', striker.x, striker.y - 50);
+      ctx.fillText('Release to Set', striker.x, striker.y - 35);
+    } else if (GAME_MODE === 'freestyle') {
+      ctx.fillText('TAP COIN to Select', striker.x, striker.y - 80);
+      ctx.fillText('TAP BLUE ZONE to Position', striker.x, striker.y - 65);
+      ctx.fillText('HOLD STRIKER & Pull to Shoot', striker.x, striker.y - 50);
+    } else {
+      ctx.fillText('TAP BLUE ZONE to Position', striker.x, striker.y - 65);
+      ctx.fillText('HOLD STRIKER & Pull to Shoot', striker.x, striker.y - 50);
+    }
+  }
+
+  if (aiThinking &&!isPlayerTurn && GAME_MODE!== '2player') {
+    ctx.fillStyle = 'rgba(230,57,70,0.9)';
+    ctx.font = 'bold 14px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText(aiStatus, 200, 30);
+  }
+
+  ctx.fillStyle = 'rgba(0,0,0,0.6)';
+  ctx.font = 'bold 12px Arial';
+  ctx.textAlign = 'left';
+  ctx.fillText(GAME_MODE.toUpperCase(), 10, 20);
+}
+
+function drawCoins() {
+  if (!ctx) return;
+
+  coins.forEach(coin => {
+    if (coin.pocketed) return;
+
+    if (GAME_MODE === 'freestyle' && selectedCoin === coin) {
+      ctx.beginPath();
+      ctx.arc(coin.x, coin.y, coin.radius + 5, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(250,204,21,0.5)';
+      ctx.fill();
+    }
+
+    ctx.beginPath();
+    ctx.arc(coin.x, coin.y, coin.radius, 0, Math.PI * 2);
+    ctx.fillStyle = coin.color;
+    ctx.fill();
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+}
+
+function drawStriker() {
+  if (!ctx) return;
+
+  ctx.beginPath();
+  ctx.arc(striker.x, striker.y, striker.radius, 0, Math.PI * 2);
+  ctx.fillStyle = isPlayerTurn? '#457b9d' : '#e63946';
+  ctx.fill();
+  ctx.strokeStyle = '#1d3557';
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  if (isDragging &&!isPositioning && (isPlayerTurn || GAME_MODE === '2player') &&!hasShot && dragStart && dragCurrent) {
+    const dx = dragCurrent.x - dragStart.x;
+    const dy = dragCurrent.y - dragStart.y;
+    const dragDist = Math.hypot(dx, dy);
+    const power = Math.min(dragDist / MAX_DRAG_DISTANCE, 1) * MAX_POWER;
+    currentPower = power;
+
+    const shootAngle = Math.atan2(-dy, -dx);
+    const lineLength = power * 5;
+
+    let color;
+    if (power < 5) color = '#4ade80';
+    else if (power < 10) color = '#facc15';
+    else color = '#ef4444';
+
+    ctx.beginPath();
+    ctx.moveTo(striker.x, striker.y);
+    ctx.lineTo(
+      striker.x + Math.cos(shootAngle) * lineLength,
+      striker.y + Math.sin(shootAngle) * lineLength
+    );
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 4;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(striker.x, striker.y, striker.radius + power, 0, Math.PI * 2);
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  } else {
+    currentPower = 0;
+  }
+
+  if (powerFill) powerFill.style.width = (currentPower / MAX_POWER * 100) + '%';
+  if (powerValue) powerValue.textContent = Math.round(currentPower);
+}
+
+function updatePhysics() {
+  let moving = false;
+  foulCommitted = false;
+
+  [...coins, striker].forEach(obj => {
+    if (obj.pocketed) return;
+
+    obj.x += obj.vx;
+    obj.y += obj.vy;
+    obj.vx *= FRICTION;
+    obj.vy *= FRICTION;
+
+    if (Math.abs(obj.vx) > 0.1 || Math.abs(obj.vy) > 0.1) moving = true;
+
+    let nearPocket = pockets.some(p => Math.hypot(obj.x - p.x, obj.y - p.y) < 40);
+
+    if (!nearPocket) {
+      if (obj.x - obj.radius < 20) { obj.x = 20 + obj.radius; obj.vx *= -0.8; }
+      if (obj.x + obj.radius > 380) { obj.x = 380 - obj.radius; obj.vx *= -0.8; }
+      if (obj.y - obj.radius < 20) { obj.y = 20 + obj.radius; obj.vy *= -0.8; }
+      if (obj.y + obj.radius > 380) { obj.y = 380 - obj.radius; obj.vy *= -0.8; }
+    }
+
+    pockets.forEach(pocket => {
+      let dist = Math.hypot(obj.x - pocket.x, obj.y - pocket.y);
+      if (dist < POCKET_RADIUS + obj.radius * 0.8) {
+        if (obj === striker) {
+          if (isPlayerTurn) {
+            playerScore = Math.max(0, playerScore - 1);
+          } else {
+            aiScore = Math.max(0, aiScore - 1);
+          }
+          pocketedThisTurn = false;
+          foulCommitted = true;
+          isPlayerTurn =!isPlayerTurn;
+        } else {
+          obj.pocketed = true;
+
+          if (GAME_MODE === 'classic') {
+            if (isPlayerTurn && obj.type === 'black') {
+              obj.pocketed = false;
+              obj.x = 200;
+              obj.y = 200;
+              obj.vx = 0;
+              obj.vy = 0;
+              playerScore = Math.max(0, playerScore - 1);
+              pocketedThisTurn = false;
+              foulCommitted = true;
+              isPlayerTurn = false;
+            } else if (!isPlayerTurn && obj.type === 'white') {
+              obj.pocketed = false;
+              obj.x = 200;
+              obj.y = 200;
+              obj.vx = 0;
+              obj.vy = 0;
+              aiScore = Math.max(0, aiScore - 1);
+              pocketedThisTurn = false;
+              foulCommitted = true;
+              isPlayerTurn = true;
+            } else {
+              pocketedThisTurn = true;
+              if (obj.type === 'white' && isPlayerTurn) playerScore++;
+              else if (obj.type === 'black' &&!isPlayerTurn) aiScore++;
+              else if (obj.type === 'queen') {
+                if (isPlayerTurn) playerScore += 3;
+                else aiScore += 3;
+              }
+            }
+          }
+          else if (GAME_MODE === 'freestyle' || GAME_MODE === '2player') {
+            pocketedThisTurn = true;
+            if (obj.type === 'white') playerScore++;
+            else if (obj.type === 'black') aiScore++;
+            else if (obj.type === 'queen') {
+              if (isPlayerTurn) playerScore += 3;
+              else aiScore += 3;
+            }
+          }
+        }
+        updateScore();
+      }
+    });
+  });
+
+  let allObjects = [...coins.filter(c =>!c.pocketed), striker];
+  for (let i = 0; i < allObjects.length; i++) {
+    for (let j = i + 1; j < allObjects.length; j++) {
+      let a = allObjects[i], b = allObjects[j];
+      let dx = b.x - a.x, dy = b.y - a.y;
+      let dist = Math.hypot(dx, dy);
+      let minDist = a.radius + b.radius;
+
+      if (dist < minDist && dist > 0) {
+        let angle = Math.atan2(dy, dx);
+        let overlap = minDist - dist;
+        a.x -= Math.cos(angle) * overlap / 2;
+        a.y -= Math.sin(angle) * overlap / 2;
+        b.x += Math.cos(angle) * overlap / 2;
+        b.y += Math.sin(angle) * overlap / 2;
+
+        let v1 = Math.sqrt(a.vx * a.vx + a.vy * a.vy);
+        let v2 = Math.sqrt(b.vx * b.vx + b.vy * b.vy);
+        let dir1 = Math.atan2(a.vy, a.vx);
+        let dir2 = Math.atan2(b.vy, b.vx);
+
+        let vx1 = v2 * Math.cos(dir2 - angle);
+        let vy1 = v1 * Math.sin(dir1 - angle);
+        let vx2 = v1 * Math.cos(dir1 - angle);
+        let vy2 = v2 * Math.sin(dir2 - angle);
+
+        a.vx = Math.cos(angle) * vx1 + Math.cos(angle + Math.PI/2) * vy1;
+        a.vy = Math.sin(angle) * vx1 + Math.sin(angle + Math.PI/2) * vy1;
+        b.vx = Math.cos(angle) * vx2 + Math.cos(angle + Math.PI/2) * vy2;
+        b.vy = Math.sin(angle) * vx2 + Math.sin(angle + Math.PI/2) * vy2;
+      }
+    }
+  }
+
+  return moving;
+}
+
+function updateScore() {
+  if (playerScoreEl) playerScoreEl.textContent = playerScore;
+  if (aiScoreEl) aiScoreEl.textContent = aiScore;
+
+  let whiteLeft = coins.filter(c => c.type === 'white' &&!c.pocketed).length;
+  let blackLeft = coins.filter(c => c.type === 'black' &&!c.pocketed).length;
+
+  if (whiteLeft === 0 && playerScore > aiScore) {
+    setTimeout(() => {
+      const winner = GAME_MODE === '2player'? playerNames[0] : 'You';
+      alert(`🎉 ${winner} Won!\nScore: ${playerScore} - ${aiScore}`);
+      if (GAME_MODE === 'classic') {
+        let coins = parseInt(localStorage.getItem('carromCoins') || '2500');
+        coins += 180;
+        localStorage.setItem('carromCoins', coins);
+      }
+    }, 500);
+    gameActive = false;
+  } else if (blackLeft === 0 && aiScore > playerScore) {
+    setTimeout(() => {
+      const winner = GAME_MODE === '2player'? playerNames[1] : 'AI';
+      alert(`😔 ${winner} Won!\nScore: ${playerScore} - ${aiScore}`);
+    }, 500);
+    gameActive = false;
+  }
+}
+
+function resetStrikerPosition() {
+  striker.x = 200;
+  striker.y = isPlayerTurn? BASELINE_Y_PLAYER : BASELINE_Y_AI;
+  striker.vx = 0;
+  striker.vy = 0;
+}
+
+function switchTurn() {
+  if (!pocketedThisTurn &&!foulCommitted) {
+    isPlayerTurn =!isPlayerTurn;
+    if (turnIndicator) {
+      if (GAME_MODE === '2player') {
+        turnIndicator.textContent = isPlayerTurn? `${playerNames[0]}'s Turn` : `${playerNames[1]}'s Turn`;
+      } else {
+        turnIndicator.textContent = isPlayerTurn? 'Your Turn' : 'AI Turn';
+      }
+      turnIndicator.style.background = isPlayerTurn? '#ff6b35' : '#e63946';
+    }
+  }
+
+  resetStrikerPosition();
+  pocketedThisTurn = false;
+  foulCommitted = false;
+  hasShot = false;
+  selectedCoin = null;
+
+  if (!isPlayerTurn && gameActive && GAME_MODE!== '2player') {
+    setTimeout(aiMove, 800);
+  }
+}
+
+function aiMove() {
+  if (isPlayerTurn ||!gameActive || aiThinking) return;
+  aiThinking = true;
+  aiStatus = 'AI is positioning...';
+
+  let targets = coins.filter(c =>!c.pocketed && (c.type === 'black' || c.type === 'queen'));
+  if (targets.length === 0) targets = coins.filter(c =>!c.pocketed);
+  if (targets.length === 0) {
+    aiThinking = false;
+    return;
+  }
+
+  let bestTarget = null;
+  let bestScore = -9999;
+  let bestStrikerX = 200;
+  let bestPocket = null;
+
+  for (let testX = BASELINE_MIN_X; testX <= BASELINE_MAX_X; testX += 8) {
+    targets.forEach(coin => {
+      pockets.forEach(pocket => {
+        let coinToPocket = Math.hypot(coin.x - pocket.x, coin.y - pocket.y);
+        let strikerToCoin = Math.hypot(testX - coin.x, BASELINE_Y_AI - coin.y);
+
+        let angle1 = Math.atan2(coin.y - BASELINE_Y_AI, coin.x - testX);
+        let angle2 = Math.atan2(pocket.y - coin.y, pocket.x - coin.x);
+        let angleDiff = Math.abs(angle1 - angle2);
+        if (angleDiff > Math.PI) angleDiff = 2 * Math.PI - angleDiff;
+
+        let score = 1000 - coinToPocket * 2 - strikerToCoin * 0.2 - angleDiff * 100;
+        if (coin.type === 'queen') score += 500;
+        if (angleDiff < 0.3) score += 200;
+        if (coinToPocket < 80) score += 100;
+
+        if (score > bestScore) {
+          bestScore = score;
+          bestTarget = coin;
+          bestPocket = pocket;
+          bestStrikerX = testX;
+        }
+      });
+    });
+  }
+
+  striker.x = bestStrikerX;
+  striker.y = BASELINE_Y_AI;
+
+  setTimeout(() => {
+    aiStatus = 'AI is aiming...';
+    setTimeout(() => {
+      if (bestTarget && bestPocket) {
+        let angleToCoin = Math.atan2(bestTarget.y - striker.y, bestTarget.x - striker.x);
+        let angleCoinToPocket = Math.atan2(bestPocket.y - bestTarget.y, bestPocket.x - bestTarget.x);
+        let shootAngle = (angleToCoin + angleCoinToPocket) / 2;
+
+        shootAngle += (Math.random() - 0.5) * 0.08;
+
+        let dist = Math.hypot(bestTarget.x - striker.x, bestTarget.y - striker.y);
+        let power = 4 + (dist / 100) * 4;
+        power = Math.max(4, Math.min(8, power));
+
+        striker.vx = Math.cos(shootAngle) * power;
+        striker.vy = Math.sin(shootAngle) * power;
+        hasShot = true;
+      }
+      aiThinking = false;
+      aiStatus = '';
+    }, 900);
+  }, 700);
+}
+
+function gameLoop() {
+  if (!ctx) return;
+  drawBoard();
+  drawCoins();
+  drawStriker();
+
+  let moving = updatePhysics();
+
+  if (!moving && gameActive && hasShot) {
+    hasShot = false;
+    striker.vx = 0; striker.vy = 0;
+    switchTurn();
+  }
+
+  requestAnimationFrame(gameLoop);
+}
+
+function handleStart(e) {
+  if ((!isPlayerTurn && GAME_MODE!== '2player') ||!gameActive || hasShot || aiThinking) return;
+  e.preventDefault();
+
+  const pos = getCanvasPos(e);
+  const distToStriker = Math.hypot(pos.x - striker.x, pos.y - striker.y);
+
+  if (GAME_MODE === 'freestyle' && distToStriker > striker.radius + 50) {
+    for (let coin of coins) {
+      if (!coin.pocketed && Math.hypot(pos.x - coin.x, pos.y - coin.y) < coin.radius + 10) {
+        selectedCoin = coin;
+        return;
+      }
+    }
+  }
+
+  if (distToStriker < striker.radius + 50) {
+    isDragging = true;
+    isPositioning = false;
+    dragStart = { x: pos.x, y: pos.y };
+    dragCurrent = { x: pos.x, y: pos.y };
+  }
+  else if (pos.y > BASELINE_Y_PLAYER + 10 && pos.y < BASELINE_Y_PLAYER + 85 &&
+           pos.x > BASELINE_MIN_X - 30 && pos.x < BASELINE_MAX_X + 30) {
+    isDragging = true;
+    isPositioning = true;
+    dragStart = { x: pos.x, y: pos.y };
+    dragCurrent = { x: pos.x, y: pos.y };
+  }
+}
+
+function handleMove(e) {
+  if (!gameActive ||!isDragging) return;
+  e.preventDefault();
+
+  const pos = getCanvasPos(e);
+
+  if (isPositioning) {
+    striker.x = Math.max(BASELINE_MIN_X, Math.min(BASELINE_MAX_X, pos.x));
+    striker.y = isPlayerTurn? BASELINE_Y_PLAYER : BASELINE_Y_AI;
+  } else {
+    dragCurrent = { x: pos.x, y: pos.y };
+  }
+}
+
+function handleEnd(e) {
+  if (!isDragging) return;
+  e.preventDefault();
+
+  if (isPositioning) {
+    isPositioning = false;
+    isDragging = false;
+    dragStart = null;
+    dragCurrent = null;
+    return;
+  }
+
+  isDragging = false;
+
+  if (!dragStart ||!dragCurrent) {
+    dragStart = null;
+    dragCurrent = null;
+    return;
+  }
+
+  const dx = dragCurrent.x - dragStart.x;
+  const dy = dragCurrent.y - dragStart.y;
+  const dragDist = Math.hypot(dx, dy);
+
+  if (dragDist > 5) {
+    const power = Math.min(dragDist / MAX_DRAG_DISTANCE, 1) * MAX_POWER;
+    const shootAngle = Math.atan2(-dy, -dx);
+
+    striker.vx = Math.cos(shootAngle) * power;
+    striker.vy = Math.sin(shootAngle) * power;
+    hasShot = true;
+  }
+
+  dragStart = null;
+  dragCurrent = null;
+}
+
+if (canvas) {
+  canvas.addEventListener('mousedown', handleStart);
+  canvas.addEventListener('mousemove', handleMove);
+  canvas.addEventListener('mouseup', handleEnd);
+
+  canvas.addEventListener('touchstart', handleStart, { passive: false });
+  canvas.addEventListener('touchmove', handleMove, { passive: false });
+  canvas.addEventListener('touchend', handleEnd, { passive: false });
+}
+
+document.addEventListener('keydown', (e) => {
+  if ((!isPlayerTurn && GAME_MODE!== '2player') ||!gameActive || hasShot) return;
+  if (e.key === 'ArrowLeft') {
+    striker.x = Math.max(BASELINE_MIN_X, striker.x - 10);
+  } else if (e.key === 'ArrowRight') {
+    striker.x = Math.min(BASELINE_MAX_X, striker.x + 10);
+  }
+});
+
+if (resetBtn) {
+  resetBtn.addEventListener('click', () => {
+    initCoins();
+    striker.x = 200; striker.y = BASELINE_Y_PLAYER; striker.vx = 0; striker.vy = 0;
+    playerScore = 0; aiScore = 0; isPlayerTurn = true; gameActive = true; hasShot = false; aiThinking = false;
+    selectedCoin = null;
+    updateScore();
+    if (turnIndicator) {
+      if (GAME_MODE === '2player') {
+        turnIndicator.textContent = `${playerNames[0]}'s Turn`;
+      } else {
+        turnIndicator.textContent = 'Your Turn';
+      }
+      turnIndicator.style.background = '#ff6b35';
+    }
+  });
+}
+
+if (backBtn) {
+  backBtn.addEventListener('click', () => {
+    window.location.href = '/storage/emulated/0/MINIGRAM1/Games/carrom/carrom_mode/med.html';
+  });
+}
+
+if (settingsBtn) {
+  settingsBtn.addEventListener('click', () => {
+    alert('Settings\n🔊 Sound: ON\n📳 Vibration: ON\n\nComing Soon!');
+  });
+}
+
+initCoins();
+setupPlayerNames();
+if (ctx) gameLoop();
+```
